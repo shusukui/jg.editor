@@ -1,0 +1,266 @@
+记录时间：2018-01-16 10:13:29,238 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:13:34,625 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“C:\Users\shushukui\AppData\Local\Temp\decodelogo.png”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 683
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1498
+记录时间：2018-01-16 10:13:36,973 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:13:37,005 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\shushukui\Desktop\11111111111111111111.jgc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.windowSave.Location(String path, List`1 dataFileList, List`1 assetFileList) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\windowSave.xaml.cs:行号 125
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1493
+记录时间：2018-01-16 10:13:38,349 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:13:48,702 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:13:55,401 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:13:55,872 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“C:\Users\shushukui\AppData\Local\Temp\decodelogo.png”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 683
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1498
+记录时间：2018-01-16 10:16:21,871 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:16:30,080 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“C:\Users\shushukui\AppData\Local\Temp\decodelogo.png”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 683
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1498
+记录时间：2018-01-16 10:16:33,277 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:16:33,505 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“C:\Users\shushukui\AppData\Local\Temp\decodelogo.png”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 683
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1498
+记录时间：2018-01-16 10:16:34,735 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:16:34,982 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“C:\Users\shushukui\AppData\Local\Temp\decodelogo.png”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 683
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1498
+记录时间：2018-01-16 10:16:35,164 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:16:35,191 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“D:\1111111.jgc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.windowSave.Location(String path, List`1 dataFileList, List`1 assetFileList) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\windowSave.xaml.cs:行号 125
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1493
+记录时间：2018-01-16 10:16:35,357 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:16:35,589 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“C:\Users\shushukui\AppData\Local\Temp\decodelogo.png”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 683
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1498
+记录时间：2018-01-16 10:16:35,753 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:16:35,996 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“C:\Users\shushukui\AppData\Local\Temp\decodelogo.png”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 683
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1498
+记录时间：2018-01-16 10:16:36,157 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:16:36,402 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“C:\Users\shushukui\AppData\Local\Temp\decodelogo.png”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 683
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1498
+记录时间：2018-01-16 10:16:36,581 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\logo.png”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:16:36,813 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“C:\Users\shushukui\AppData\Local\Temp\decodelogo.png”。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 683
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1498
+记录时间：2018-01-16 10:17:04,848 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：无法使用“System.Windows.Media.Animation.DoubleAnimation”动态“jg.PCPlayerLibrary.windowTree”上的“Left”属性。有关详细信息，请查看内部异常。
+   在 System.Windows.Media.Animation.AnimationStorage.OnCurrentTimeInvalidated(Object sender, EventArgs args)
+   在 System.Windows.Media.Animation.Clock.FireEvent(EventPrivateKey key)
+   在 System.Windows.Media.Animation.Clock.RaiseAccumulatedEvents()
+   在 System.Windows.Media.Animation.TimeManager.RaiseEnqueuedEvents()
+   在 System.Windows.Media.Animation.TimeManager.Tick()
+   在 System.Windows.Media.MediaContext.RenderMessageHandlerCore(Object resizedCompositionTarget)
+   在 System.Windows.Media.MediaContext.AnimatedRenderMessageHandler(Object resizedCompositionTarget)
+   在 System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   在 System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   在 System.Windows.Threading.DispatcherOperation.InvokeImpl()
+   在 System.Windows.Threading.DispatcherOperation.InvokeInSecurityContext(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 MS.Internal.CulturePreservingExecutionContext.Run(CulturePreservingExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Windows.Threading.DispatcherOperation.Invoke()
+   在 System.Windows.Threading.Dispatcher.ProcessQueue()
+   在 System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   在 MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   在 MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   在 System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   在 System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   在 System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   在 MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   在 MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   在 System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   在 System.Windows.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   在 System.Windows.Window.ShowHelper(Object booleanBox)
+   在 System.Windows.Window.Show()
+   在 System.Windows.Window.ShowDialog()
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1500
+记录时间：2018-01-16 10:17:47,082 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\1.mp4”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361
+记录时间：2018-01-16 10:18:08,770 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未能找到文件“D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\bin\Debug\1.mp4”。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.Library.FileSecurity.StreamToFileInfo(String sInputFilename, String sOutputFilename) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 62
+   在 jg.Editor.MainWindow.PackageAsset() 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2361

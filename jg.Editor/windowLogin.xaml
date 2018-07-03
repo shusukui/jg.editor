@@ -1,0 +1,188 @@
+﻿<Window x:Class="jg.Editor.windowLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStyle="None" AllowsTransparency="True"
+        Title="windowLogin"   Background="Transparent" Height="350" Width="510" WindowStartupLocation="CenterScreen" >
+    <Window.Resources>
+
+        <Style  TargetType="{x:Type Button}" >
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[2].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FF36D0E4"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FF0898C8"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FF0898C8"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FF064B76"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FF064B76"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[2].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FF0A91CA"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle1">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.195"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[2].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FFD6D6D6"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FF747474"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FF747474"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Stroke).(GradientBrush.GradientStops)[0].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FFDEDEDE"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Stroke).(GradientBrush.GradientStops)[1].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FF919191"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+
+                            <Rectangle x:Name="rectangle" RadiusY="5" RadiusX="5">
+                                <Rectangle.Effect>
+                                    <BlurEffect Radius="1" RenderingBias="Quality"/>
+                                </Rectangle.Effect>
+                                <Rectangle.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <LinearGradientBrush.RelativeTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                                <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </LinearGradientBrush.RelativeTransform>
+                                        <GradientStop Color="#FF096FAF" Offset="0"/>
+                                        <GradientStop Color="#FF096FAF" Offset="1"/>
+                                        <GradientStop Color="#FF26B6ED" Offset="0.534"/>
+                                    </LinearGradientBrush>
+                                </Rectangle.Fill>
+                                <Rectangle.Stroke>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <LinearGradientBrush.RelativeTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                                <RotateTransform Angle="-23" CenterY="0.5" CenterX="0.5"/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </LinearGradientBrush.RelativeTransform>
+                                        <GradientStop Color="#FF24ACE2" Offset="0"/>
+                                        <GradientStop Color="#FF095787" Offset="0.997"/>
+                                    </LinearGradientBrush>
+                                </Rectangle.Stroke>
+                            </Rectangle>
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            <Rectangle x:Name="rectangle1" Margin="0.023,0.011,-0.024,17.489" RadiusY="5.425" RadiusX="5.425" Width="237" Fill="White" Stroke="{x:Null}" Opacity="0.205"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Storyboard x:Key="OnLoaded1">
+            <PointAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)" Storyboard.TargetName="grid">
+                <EasingPointKeyFrame KeyTime="0" Value="0.5,0.5"/>
+                <!--悟空博客备注：这里定义了中心点偏移量-->
+            </PointAnimationUsingKeyFrames>
+            <!--悟空博客http://www.7es.cn备注：下面是一个动画，实现反转效果-->
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-1">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource OnLoaded1}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid Height="322" Width="495" x:Name="grid">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.Effect>
+            <DropShadowEffect BlurRadius="9" Color="#FF000000" Direction="-60" Opacity="1" ShadowDepth="0"/>
+        </Grid.Effect>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Grid.RowSpan="2" RadiusX="10" RadiusY="10" Stroke="#FF60666D" Fill="#FFECECEC" Margin="0" />
+        <Image PreviewMouseMove="Image_PreviewMouseMove" Source="Image/Login_Title.png" Stretch="Fill"/>
+
+        <Button Name="btnClose" HorizontalAlignment="Right" Margin="0,10,10,20"  Background="Transparent"  Width="40" Height="40" Click="btnClose_Click">
+            <Path Data="F1M11.95,1.014C11.95,1.014 8.051,4.972 8.051,4.972 8.051,4.972 4.027,1.045 4.027,1.045 4.027,1.045 1.931,2.954 1.931,2.954 1.931,2.954 6.046,6.946 6.046,6.946 6.046,6.946 1.962,10.97 1.962,10.97 1.962,10.97 3.965,13.066 3.965,13.066 3.965,13.066 7.895,9.077 7.895,9.077 7.895,9.077 12.013,13.004 12.013,13.004 12.013,13.004 14.046,11.002 14.046,11.002 14.046,11.002 9.994,7.04 9.994,7.04 9.994,7.04 14.015,2.954 14.015,2.954 14.015,2.954 11.95,1.014 11.95,1.014z"
+              Fill="#FFFFFFFF" Stretch="Fill"
+              />
+        </Button>
+
+
+        <TextBlock Grid.Row="1" FontSize="20" Margin="51,60,0,166" HorizontalAlignment="Left" VerticalAlignment="Center" Text="用户名："/>
+        <TextBlock Grid.Row="1" FontSize="20" Margin="51,112,0,114" HorizontalAlignment="Left" VerticalAlignment="Center" Text="密　码："/>
+        <TextBox Grid.Row="1" FontSize="20" Width="260" Margin="150,-100,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Name="txtName"></TextBox>
+        <PasswordBox Grid.Row="1" FontSize="20" Width="260" Margin="150,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Name="txtPassword"></PasswordBox>
+
+
+        <Button Foreground="White" Name="btnLogin" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                Grid.Row="1" Height="40" FontSize="20" Width="100" Margin="0,0,155,37" Content="登录" Click="btnLogin_Click" IsDefault="True"/>
+        <Button Foreground="White" Name="btnExit" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                Grid.Row="1" Height="40" FontSize="20" Width="100" Margin="0,0,28,37"  Content="退出" Click="btnExit_Click" IsCancel="True"/>
+        <TextBlock Foreground="#FFFFFFFF" FontSize="9.065"  x:Name="LoginTittle"
+                   FontFamily="Microsoft YaHei" 
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Text="" 
+                   Grid.Row="0" Margin="17,13,0,0">
+            <TextBlock.RenderTransform>
+                <MatrixTransform Matrix="2.661,0,0,2.661,0,0"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+    </Grid>
+</Window>

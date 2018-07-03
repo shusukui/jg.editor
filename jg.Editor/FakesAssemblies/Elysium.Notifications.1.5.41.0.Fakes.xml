@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Elysium.Notifications.1.5.41.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Elysium.Notifications.Fakes.ShimNotificationManager">
+            <summary>Elysium.Notifications.NotificationManager 的填充码类型</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimNotificationManager.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimNotificationManager.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimNotificationManager.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimNotificationManager.BeginPushStringString">
+            <summary>设置 NotificationManager.BeginPush(String message, String remark) 的 填充码</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimNotificationManager.BeginTryPushStringString">
+            <summary>设置 NotificationManager.BeginTryPush(String message, String remark) 的 填充码</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimNotificationManager.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimNotificationManager.FreeByte">
+            <summary>设置 NotificationManager.Free(Byte id) 的 填充码</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimNotificationManager.PushStringString">
+            <summary>设置 NotificationManager.Push(String message, String remark) 的 填充码</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimNotificationManager.TryPushStringString">
+            <summary>设置 NotificationManager.TryPush(String message, String remark) 的 填充码</summary>
+        </member>
+        <member name="T:Elysium.Notifications.Fakes.ShimPushNotificationFailedException">
+            <summary>Elysium.Notifications.PushNotificationFailedException 的填充码类型</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.#ctor(Elysium.Notifications.PushNotificationFailedException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.Constructor">
+            <summary>设置 PushNotificationFailedException.PushNotificationFailedException() 的 填充码</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 PushNotificationFailedException.PushNotificationFailedException(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.ConstructorString">
+            <summary>设置 PushNotificationFailedException.PushNotificationFailedException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.ConstructorStringException">
+            <summary>设置 PushNotificationFailedException.PushNotificationFailedException(String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="T:Elysium.Notifications.Fakes.ShimPushNotificationFailedException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:Elysium.Notifications.Fakes.ShimServerUnavailableException">
+            <summary>Elysium.Notifications.ServerUnavailableException 的填充码类型</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimServerUnavailableException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimServerUnavailableException.#ctor(Elysium.Notifications.ServerUnavailableException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimServerUnavailableException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimServerUnavailableException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.ShimServerUnavailableException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimServerUnavailableException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimServerUnavailableException.Constructor">
+            <summary>设置 ServerUnavailableException.ServerUnavailableException() 的 填充码</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimServerUnavailableException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 ServerUnavailableException.ServerUnavailableException(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimServerUnavailableException.ConstructorString">
+            <summary>设置 ServerUnavailableException.ServerUnavailableException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.ShimServerUnavailableException.ConstructorStringException">
+            <summary>设置 ServerUnavailableException.ServerUnavailableException(String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="T:Elysium.Notifications.Fakes.ShimServerUnavailableException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:Elysium.Notifications.Fakes.StubPushNotificationFailedException">
+            <summary>Elysium.Notifications.PushNotificationFailedException 的存根类型</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubPushNotificationFailedException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubPushNotificationFailedException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubPushNotificationFailedException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubPushNotificationFailedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubPushNotificationFailedException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubPushNotificationFailedException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubPushNotificationFailedException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubPushNotificationFailedException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubPushNotificationFailedException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubPushNotificationFailedException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubPushNotificationFailedException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubPushNotificationFailedException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 Exception.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubPushNotificationFailedException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 Exception.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubPushNotificationFailedException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubPushNotificationFailedException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubPushNotificationFailedException.InitializeStub">
+            <summary>初始化 type StubPushNotificationFailedException 的新实例</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubPushNotificationFailedException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubPushNotificationFailedException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubPushNotificationFailedException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubPushNotificationFailedException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubPushNotificationFailedException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubPushNotificationFailedException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubPushNotificationFailedException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubPushNotificationFailedException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubPushNotificationFailedException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubPushNotificationFailedException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubPushNotificationFailedException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubPushNotificationFailedException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubPushNotificationFailedException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubPushNotificationFailedException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="T:Elysium.Notifications.Fakes.StubServerUnavailableException">
+            <summary>Elysium.Notifications.ServerUnavailableException 的存根类型</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubServerUnavailableException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubServerUnavailableException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubServerUnavailableException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubServerUnavailableException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubServerUnavailableException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubServerUnavailableException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubServerUnavailableException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubServerUnavailableException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubServerUnavailableException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubServerUnavailableException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubServerUnavailableException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubServerUnavailableException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 Exception.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubServerUnavailableException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 Exception.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubServerUnavailableException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubServerUnavailableException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubServerUnavailableException.InitializeStub">
+            <summary>初始化 type StubServerUnavailableException 的新实例</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubServerUnavailableException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubServerUnavailableException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubServerUnavailableException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubServerUnavailableException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:Elysium.Notifications.Fakes.StubServerUnavailableException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:Elysium.Notifications.Fakes.StubServerUnavailableException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubServerUnavailableException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubServerUnavailableException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubServerUnavailableException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubServerUnavailableException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubServerUnavailableException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubServerUnavailableException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubServerUnavailableException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="P:Elysium.Notifications.Fakes.StubServerUnavailableException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="jg.Editor.Library.Control.ControlMessage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             Background="Transparent"
+             SizeChanged="UserControl_SizeChanged"
+             Loaded="UserControl_Loaded"
+             mc:Ignorable="d">
+    <Grid Name="main" ClipToBounds="False">
+        <Path Name="path" Data="M10,15 L50,45 L30,15" 
+              Stroke="White" 
+              Fill="White"
+              StrokeThickness="0" Margin="0,0,-40,-40"/>
+        <Grid Name="grid">
+            <Rectangle Name="rectangleBack" 
+                       RadiusX="10" 
+                       RadiusY="10" 
+                       Fill="White" />
+            
+            <TextBox Name="textBox"
+                     BorderBrush="Transparent"
+                     Background="Transparent"
+                     Text="A" 
+                     TextWrapping="Wrap" 
+                     Margin="5"/>
+        </Grid>
+
+       
+        <Rectangle MouseMove="Rectangle_MouseMove" 
+                   MouseDown="Rectangle_MouseDown" 
+                   MouseUp="Rectangle_MouseUp"  
+                   Name="rectangle" 
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="100,100,-45,-45" 
+                   Height="5" 
+                   Width="5"  
+                   Stroke="Black"
+                   Fill="Yellow"/>
+    </Grid>
+</UserControl>

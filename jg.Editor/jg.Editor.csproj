@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE30DD16-9D7C-4C22-A746-D844FA409FCA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jg.Editor</RootNamespace>
+    <AssemblyName>jg.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>jg.Editor.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Editor.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aliyun.OpenServices">
+      <HintPath>bin\Debug\Lib\Aliyun.OpenServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Geckofx-Core, Version=29.0.1.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Geckofx-Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Geckofx-Winforms, Version=29.0.1.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Geckofx-Winforms.dll</HintPath>
+    </Reference>
+    <Reference Include="jg.Security.Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\jg.Security.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Expression.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Windows.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Aliyun.cs" />
+    <Compile Include="DispatchTimer.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="HTML5Class.cs" />
+    <Compile Include="ImpHtml.xaml.cs">
+      <DependentUpon>ImpHtml.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalRes.xaml.cs">
+      <DependentUpon>LocalRes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\FontCollection.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="test.xaml.cs">
+      <DependentUpon>test.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinProBusy.xaml.cs">
+      <DependentUpon>WinProBusy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="windowQuestion.xaml.cs">
+      <DependentUpon>windowQuestion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="windowSave.xaml.cs">
+      <DependentUpon>windowSave.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Fakes Include="Fakes\Elysium.Notifications.fakes" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ImpHtml.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LocalRes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Property\PropertyManage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Brushes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\ButtonSty.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\CboCommonStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\DesignerItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Document.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Expander.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\LabelStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\ResizeChrome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\RichTextBoxRes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\ScrollBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\ScrollViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Slider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\StatusBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\TextBlockStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\TextBoxStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\ToolBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Toolbox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Tooltip.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\TreeViewItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\ZoomBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Stencils\BasicShapes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\FlowChartSymbols.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\RegelungstechnikSymbole.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\Shape.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\SymbolStencils.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\ToolBoxAsset.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinProBusy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="windowQuestion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="windowSave.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Shell32">
+      <Guid>{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fluent\Fluent dotNET 4.0.csproj">
+      <Project>{4c92fcf4-3561-499f-bc5b-f2f089863047}</Project>
+      <Name>Fluent dotNET 4.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jg.Editor.Library\jg.Editor.Library.csproj">
+      <Project>{5A1F88DA-EF12-47F2-BE91-9E9E2198F081}</Project>
+      <Name>jg.Editor.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jg.PCPlayerLibrary\jg.PCPlayerLibrary.csproj">
+      <Project>{f6247322-f219-4beb-b495-c0b294c027e4}</Project>
+      <Name>jg.PCPlayerLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Skybound.Gecko\Skybound.Gecko.csproj">
+      <Project>{877d1a24-2d5e-4c46-a933-fcf11ea0403b}</Project>
+      <Name>Skybound.Gecko</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconLock.png" />
+    <Resource Include="Image\IconVisible.png" />
+    <Resource Include="Image\Top_3DModel_Normal.png" />
+    <Resource Include="Image\Top_Add_Normal.png" />
+    <Resource Include="Image\Top_Add_Preview.png" />
+    <Resource Include="Image\Top_Animation_Normal.png" />
+    <Resource Include="Image\Top_Audio_Normal.png" />
+    <Resource Include="Image\Top_Copy_Normal.png" />
+    <Resource Include="Image\Top_Cut_Normal.png" />
+    <Resource Include="Image\Top_DragandDrop_Normal.png" />
+    <Resource Include="Image\Top_Graph_Normal.png" />
+    <Resource Include="Image\Top_Grid_Normal.png" />
+    <Resource Include="Image\Top_Multiplechoice_Normal.png" />
+    <Resource Include="Image\Top_Open_Normal.png" />
+    <Resource Include="Image\Top_Page_Add.png" />
+    <Resource Include="Image\Top_Page_Del.png" />
+    <Resource Include="Image\Top_Paste_Normal.png" />
+    <Resource Include="Image\Top_Picture_Normal.png" />
+    <Resource Include="Image\Top_Redo_Normal.PNG" />
+    <Resource Include="Image\Top_Release_Normal.png" />
+    <Resource Include="Image\Top_Save_Normal.png" />
+    <Resource Include="Image\Top_Text_Normal.png" />
+    <Resource Include="Image\Top_Undo_Normal.PNG" />
+    <Resource Include="Image\Top_Video_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Align_Bottom.png" />
+    <Resource Include="Image\Align_Left.png" />
+    <Resource Include="Image\Align_Right.png" />
+    <Resource Include="Image\Align_Top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Login_Title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Document_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Editor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BlackTheme.png" />
+    <Resource Include="Images\BlueTheme.png" />
+    <Resource Include="Images\Bold.png" />
+    <Resource Include="Images\Box.png" />
+    <Resource Include="Images\ChangeCase.png" />
+    <Resource Include="Images\ClearFormatting.png" />
+    <Resource Include="Images\Copy.png" />
+    <Resource Include="Images\Cut.png" />
+    <Resource Include="Images\Default.png" />
+    <Resource Include="Images\Exit.png" />
+    <Resource Include="Images\FontColor.png" />
+    <Resource Include="Images\FormatPainter.png" />
+    <Resource Include="Images\GalleryLarge.png" />
+    <Resource Include="Images\GrowFont.png" />
+    <Resource Include="Images\Help.png" />
+    <Resource Include="Images\Italic.png" />
+    <Resource Include="Images\Paste.png" />
+    <Resource Include="Images\PasteFormating.png" />
+    <Resource Include="Images\PasteImage.png" />
+    <Resource Include="Images\PasteLarge.png" />
+    <Resource Include="Images\PasteSourceFormating.png" />
+    <Resource Include="Images\PasteText.png" />
+    <Resource Include="Images\PasteTextOnly.png" />
+    <Resource Include="Images\SampleImageForScreenTip.png" />
+    <Resource Include="Images\Save.png" />
+    <Resource Include="Images\ShrinkFont.png" />
+    <Resource Include="Images\SilverTheme.png" />
+    <Resource Include="Images\Strikethrough.png" />
+    <Resource Include="Images\Subscript.png" />
+    <Resource Include="Images\Superscript.png" />
+    <Resource Include="Images\Test16.png" />
+    <Resource Include="Images\Test32.png" />
+    <Resource Include="Images\TextEffects.png" />
+    <Resource Include="Images\TextHighlightColor.png" />
+    <Resource Include="Images\Underline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AngleCur.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Thumbnails_Document.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Thumbnails_Sound.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Thumbnails_Movie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

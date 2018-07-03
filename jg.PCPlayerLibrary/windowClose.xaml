@@ -1,0 +1,72 @@
+﻿<Window x:Class="jg.PCPlayerLibrary.windowClose"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="windowClose" WindowStyle="None" Background="{x:Null}"
+        
+        AllowsTransparency="True" Height="50" Width="50" ShowInTaskbar="False">
+    <Window.Resources>
+        <Style x:Key="buttonClose" TargetType="Button">
+            <Setter Property="Opacity" Value=".3"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Ellipse Fill="Black" Opacity="0.35"/>
+                            <Ellipse Opacity="0.48" Margin="1,1,2,3">
+                                <Ellipse.Stroke>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <LinearGradientBrush.RelativeTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                                <RotateTransform Angle="-43" CenterY="0.5" CenterX="0.5"/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </LinearGradientBrush.RelativeTransform>
+                                        <GradientStop Color="Black" Offset="1"/>
+                                        <GradientStop Color="#FFBABABA"/>
+                                    </LinearGradientBrush>
+                                </Ellipse.Stroke>
+                                <Ellipse.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="Black" Offset="1"/>
+                                        <GradientStop Color="#FF565656"/>
+                                    </LinearGradientBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <Path Data="F1M14.468,1.911C14.468,1.911 9.588,6.92 9.588,6.92 9.588,6.92 4.552,1.95 4.552,1.95 4.552,1.95 1.928,4.366 1.928,4.366 1.928,4.366 7.078,9.418 7.078,9.418 7.078,9.418 1.967,14.51 1.967,14.51 1.967,14.51 4.473,17.162 4.473,17.162 4.473,17.162 9.393,12.114 9.393,12.114 9.393,12.114 14.547,17.083 14.547,17.083 14.547,17.083 17.092,14.549 17.092,14.549 17.092,14.549 12.02,9.537 12.02,9.537 12.02,9.537 17.053,4.365 17.053,4.365 17.053,4.365 14.468,1.911 14.468,1.911z" 
+                                  Fill="#FFFFFFFF" 
+                                  Height="20"
+                                  Width="20" 
+
+                                  Stretch="Fill"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button Style="{StaticResource buttonClose}" Click="btnClose_Click"
+                Name="btnClose"
+                >
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard Storyboard.TargetProperty="Opacity">
+                            <DoubleAnimation To="1" Duration="0:0:0.3"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard Storyboard.TargetProperty="Opacity">
+                            <DoubleAnimation To=".3" Duration="0:0:0.3"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+
+        </Button>
+    </Grid>
+</Window>

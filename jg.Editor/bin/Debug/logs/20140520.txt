@@ -1,0 +1,864 @@
+记录时间：2014-05-20 16:24:37,791 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 16:24:38,957 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 16:25:04,463 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 16:25:59,217 线程ID:[17] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\41edd272-c82d-4e38-baf4-6c7f603e17e4.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 16:26:02,524 线程ID:[14] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:28:02,802 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 16:28:03,733 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 16:28:29,443 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 16:38:51,169 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 16:38:52,090 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 16:39:17,599 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 16:40:42,945 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\f7570ea4-c63c-4f14-9ec5-a76142433d8d.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:42,961 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\9cad0253-d8b8-4f21-8482-314453a6fabe.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:42,969 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\4a5d2ee4-1f04-40c3-97b2-4c26a34649c8.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:42,977 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\4a5d2ee4-1f04-40c3-97b2-4c26a34649c8.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:42,984 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\dd67c162-2a31-43a4-8e77-ff6784f52708.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:42,992 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\dd67c162-2a31-43a4-8e77-ff6784f52708.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:42,999 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\9ce115c5-b849-4f07-9390-ebf1da251266.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,008 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\9ce115c5-b849-4f07-9390-ebf1da251266.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,016 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\5911b462-6610-4772-9dc9-6357657ffa2b.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,030 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\5911b462-6610-4772-9dc9-6357657ffa2b.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,038 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\e25247df-70e4-4c14-bfca-1c6c32dea587.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,046 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\e25247df-70e4-4c14-bfca-1c6c32dea587.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,054 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\440c16b2-6f57-4e09-903c-a991c909e91d.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,061 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\440c16b2-6f57-4e09-903c-a991c909e91d.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,069 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\8bf502bc-f492-4904-b97b-1f3b86bcb2e0.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,076 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\b93b0255-7874-45e0-9759-acc4a03f94f0.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,085 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\cacc7844-01d2-48a7-8e9a-92a17a454caf.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,098 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\af894bc1-78d2-4329-b55c-037dc7ccf6f1.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,105 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\7cb7f201-59c6-4db2-8e67-0735c441d298.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,113 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\8d89f10d-0e8b-41e3-ac6a-f60d271c47a5.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,120 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\63ef281d-09f1-4b4a-bab6-7f78b7e2e1c0.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,128 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,135 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\ac9dfe12-6510-42ad-a069-a8aa7b57394b.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,143 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\b1f50425-3f77-4074-994f-65cdd7f8287f.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,153 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\7ac693be-c128-4906-aa52-ddbd580bf385.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,163 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\8553e1fc-2bce-4609-8be6-897e01f20a40.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,170 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0e6e32fc-403d-41d7-9d51-29d8d0998d77.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,178 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\d2e5223b-c994-4f3c-92f2-24545358812a.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,185 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\46b3bde3-97de-4aae-94e7-8e638f3f7db7.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,192 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\6d630fa8-c199-4e25-9df4-712c0fa21837.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,200 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\ece73704-c4a1-4372-87c2-ea77df0b8ca1.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,208 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\63123319-e48e-4a48-ac60-539bdf75a148.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,236 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\dcc5e7f7-0458-4f3b-807f-9c18b3313eb5.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,246 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\8b4b50fe-6e09-4ec9-9746-988035c1eb30.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,254 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\25409f12-399d-45ed-a6fb-571ccd6c2fec.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,261 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\ca2dd19b-f2a9-4b99-a781-eeee89a494fb.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,269 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\3e312fab-e718-446f-a710-9b6e46e5aa3e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:40:43,276 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\81c3d297-88f7-41c2-9670-e98feabad43e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:42:48,492 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 16:42:50,015 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 16:44:28,005 线程ID:[16] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 16:44:29,862 线程ID:[16] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 16:44:55,533 线程ID:[16] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 16:45:32,385 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\f7570ea4-c63c-4f14-9ec5-a76142433d8d.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,393 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\9cad0253-d8b8-4f21-8482-314453a6fabe.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,400 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\4a5d2ee4-1f04-40c3-97b2-4c26a34649c8.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,413 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\4a5d2ee4-1f04-40c3-97b2-4c26a34649c8.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,421 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\dd67c162-2a31-43a4-8e77-ff6784f52708.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,428 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\dd67c162-2a31-43a4-8e77-ff6784f52708.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,435 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\9ce115c5-b849-4f07-9390-ebf1da251266.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,443 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\9ce115c5-b849-4f07-9390-ebf1da251266.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,450 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\5911b462-6610-4772-9dc9-6357657ffa2b.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,457 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\5911b462-6610-4772-9dc9-6357657ffa2b.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,465 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\e25247df-70e4-4c14-bfca-1c6c32dea587.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,472 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\e25247df-70e4-4c14-bfca-1c6c32dea587.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,488 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\440c16b2-6f57-4e09-903c-a991c909e91d.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,495 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\440c16b2-6f57-4e09-903c-a991c909e91d.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,502 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\8bf502bc-f492-4904-b97b-1f3b86bcb2e0.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,510 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\b93b0255-7874-45e0-9759-acc4a03f94f0.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,517 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\cacc7844-01d2-48a7-8e9a-92a17a454caf.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,525 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\af894bc1-78d2-4329-b55c-037dc7ccf6f1.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,532 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\7cb7f201-59c6-4db2-8e67-0735c441d298.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,540 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\8d89f10d-0e8b-41e3-ac6a-f60d271c47a5.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,549 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\63ef281d-09f1-4b4a-bab6-7f78b7e2e1c0.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,557 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,564 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\ac9dfe12-6510-42ad-a069-a8aa7b57394b.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,572 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\b1f50425-3f77-4074-994f-65cdd7f8287f.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,580 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\7ac693be-c128-4906-aa52-ddbd580bf385.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,588 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\8553e1fc-2bce-4609-8be6-897e01f20a40.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,595 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0e6e32fc-403d-41d7-9d51-29d8d0998d77.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,603 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\d2e5223b-c994-4f3c-92f2-24545358812a.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,612 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\46b3bde3-97de-4aae-94e7-8e638f3f7db7.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,619 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\6d630fa8-c199-4e25-9df4-712c0fa21837.mp3”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,627 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\ece73704-c4a1-4372-87c2-ea77df0b8ca1.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,634 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\63123319-e48e-4a48-ac60-539bdf75a148.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,642 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\dcc5e7f7-0458-4f3b-807f-9c18b3313eb5.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,650 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\8b4b50fe-6e09-4ec9-9746-988035c1eb30.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,657 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\25409f12-399d-45ed-a6fb-571ccd6c2fec.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,667 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\ca2dd19b-f2a9-4b99-a781-eeee89a494fb.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,674 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\3e312fab-e718-446f-a710-9b6e46e5aa3e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:32,682 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\81c3d297-88f7-41c2-9670-e98feabad43e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:45:36,621 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 16:45:36,869 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\AppData\Local\Temp\8b4b50fe-6e09-4ec9-9746-988035c1eb30.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 699
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1520
+记录时间：2014-05-20 16:47:38,826 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 16:47:40,832 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 16:48:06,428 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 16:55:16,448 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 16:55:17,395 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 16:56:09,581 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 16:56:10,585 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 16:56:36,293 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 16:58:50,714 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\41edd272-c82d-4e38-baf4-6c7f603e17e4.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 16:58:52,900 线程ID:[21] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 16:59:13,519 线程ID:[21] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\41edd272-c82d-4e38-baf4-6c7f603e17e4.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 16:59:15,812 线程ID:[25] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 17:00:06,506 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:00:07,471 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\AppData\Local\Temp\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 699
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1520
+记录时间：2014-05-20 17:00:22,222 线程ID:[21] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\saaaaa.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:00:24,529 线程ID:[20] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 17:00:31,381 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:00:32,526 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\AppData\Local\Temp\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 699
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1520
+记录时间：2014-05-20 17:03:09,481 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 17:03:10,437 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 17:03:35,894 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 17:06:08,740 线程ID:[13] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\zxc.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:06:10,943 线程ID:[21] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 17:06:13,313 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:06:19,352 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\AppData\Local\Temp\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 699
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1520
+记录时间：2014-05-20 17:06:21,754 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:06:22,818 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\AppData\Local\Temp\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 699
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1520
+记录时间：2014-05-20 17:06:52,816 线程ID:[17] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\41edd272-c82d-4e38-baf4-6c7f603e17e4.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:06:55,021 线程ID:[21] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 17:07:00,095 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:07:32,975 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:7 Login
+记录时间：2014-05-20 17:07:33,901 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:7 Successful login
+记录时间：2014-05-20 17:07:59,582 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 17:11:05,012 线程ID:[23] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\ZXCCCC.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:11:07,185 线程ID:[22] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 17:14:24,681 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 17:14:25,642 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 17:14:51,299 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 17:16:38,837 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 17:16:39,794 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 17:17:05,394 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 17:22:28,511 线程ID:[16] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\ZXCCCC.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:22:30,698 线程ID:[15] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 17:24:56,971 线程ID:[27] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\ZXCCCC.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:24:59,178 线程ID:[28] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 17:25:46,300 线程ID:[27] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\41edd272-c82d-4e38-baf4-6c7f603e17e4.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:25:48,692 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 17:25:54,848 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:26:34,300 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 17:26:35,303 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 17:27:00,850 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 17:28:37,636 线程ID:[16] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\41edd272-c82d-4e38-baf4-6c7f603e17e4.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:28:39,791 线程ID:[22] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 17:28:44,659 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:29:14,510 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\AppData\Local\Temp\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 699
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1520
+记录时间：2014-05-20 17:29:26,829 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:29:36,930 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:29:43,751 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\AppData\Local\Temp\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 699
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1520
+记录时间：2014-05-20 17:30:09,409 线程ID:[12] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\41edd272-c82d-4e38-baf4-6c7f603e17e4.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:30:11,603 线程ID:[22] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：未能找到路径“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\Asset\0b6947da-6907-44ff-94b2-3a22d84c3e6e.png”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 jg.Editor.Globals.DownLoadAsset(Object param) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 173
+记录时间：2014-05-20 17:30:14,649 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:30:41,234 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：未将对象引用设置到对象的实例。
+   在 jg.Editor.Library.FileSecurity.GetStream(FileInfo fileInfo) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\FileSecurity.cs:行号 165
+   在 jg.Editor.MainWindow.GetSavePageInfo(DesignerCanvas designerCanvas) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 981
+   在 jg.Editor.MainWindow.PackageData() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 2324
+记录时间：2014-05-20 17:32:07,519 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:7 Login
+记录时间：2014-05-20 17:32:08,461 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:7 Successful login
+记录时间：2014-05-20 17:32:34,061 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 17:33:53,507 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\zzzzzzzzzzzzzzzzz.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:34:19,048 线程ID:[23] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\zzzzzzzzzzzzzzzzz.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 17:34:52,029 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 17:34:53,002 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 17:35:18,676 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 17:36:56,024 线程ID:[6] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 17:36:56,158 线程ID:[6] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 17:37:21,696 线程ID:[6] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 17:46:20,173 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 17:46:21,328 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 17:46:46,926 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 17:47:01,952 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 668
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1520
+记录时间：2014-05-20 17:48:24,001 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 668
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1520
+记录时间：2014-05-20 17:49:36,724 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 17:49:37,883 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 17:50:03,360 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 17:52:05,446 线程ID:[23] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\zzzzzzzzzzzzzzzzz.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 18:01:11,400 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 18:01:12,438 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 18:01:38,107 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 18:13:28,330 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 18:13:29,507 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 18:13:55,125 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 18:31:21,491 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 18:31:22,656 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 18:31:48,235 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 18:58:29,425 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:7 Login
+记录时间：2014-05-20 18:58:30,388 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:7 Successful login
+记录时间：2014-05-20 18:58:55,920 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 19:05:33,989 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 19:05:34,919 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 19:06:00,655 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 19:08:22,943 线程ID:[16] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 19:08:23,882 线程ID:[16] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 19:11:30,031 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 19:11:31,045 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 19:11:56,549 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 19:13:54,314 线程ID:[20] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\87.jgc\c7155aee-7f1d-432e-bc4e-d43c725d99d1_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 19:14:20,910 线程ID:[20] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\87.jgc\c7155aee-7f1d-432e-bc4e-d43c725d99d1_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 19:24:20,163 线程ID:[3] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\12.jgc\c7155aee-7f1d-432e-bc4e-d43c725d99d1_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 19:24:39,453 线程ID:[18] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\12.jgc\c7155aee-7f1d-432e-bc4e-d43c725d99d1_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 19:24:55,252 线程ID:[18] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\12.jgc\c7155aee-7f1d-432e-bc4e-d43c725d99d1_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 19:25:25,126 线程ID:[14] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\12.jgc\c7155aee-7f1d-432e-bc4e-d43c725d99d1_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 19:25:40,760 线程ID:[11] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\12.jgc\c7155aee-7f1d-432e-bc4e-d43c725d99d1_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 19:26:18,730 线程ID:[20] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\12.jgc\c7155aee-7f1d-432e-bc4e-d43c725d99d1_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-20 19:42:52,848 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 19:42:53,893 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 19:43:19,492 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 19:57:45,765 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 19:57:47,398 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 19:58:13,017 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 19:58:51,718 线程ID:[18] 日志级别：ERROR 所属类：jg.Editor.WindowAssetSel property:[(null)] - 描述：集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   在 System.Collections.Generic.List`1.Enumerator.MoveNext()
+   在 jg.Editor.WindowAssetSel.DownloadThumbnail() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\WindowAssetSel.xaml.cs:行号 102
+记录时间：2014-05-20 20:01:48,233 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:7 Login
+记录时间：2014-05-20 20:01:49,364 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:7 Successful login
+记录时间：2014-05-20 20:02:15,029 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 20:05:55,675 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 20:05:57,289 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 20:06:22,880 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 20:08:46,976 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 20:08:47,927 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 20:09:13,464 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-20 20:13:46,668 线程ID:[4] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-20 20:13:46,761 线程ID:[4] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-20 20:14:12,390 线程ID:[4] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data

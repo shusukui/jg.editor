@@ -1,0 +1,3 @@
+记录时间：2018-07-03 13:29:33,337 线程ID:[1] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：值不能为 null。
+   在 jg.Editor.Library.ControlTimeLine.Add(List`1 propertyList) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor.Library\Control\ControlTimeLine.xaml.cs:行号 1024
+   在 jg.Editor.MainWindow.Button_Click_3(Object sender, RoutedEventArgs e) 位置 D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1681

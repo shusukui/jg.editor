@@ -1,0 +1,21 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wfi ="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+        xmlns:my2="clr-namespace:jg.Editor.Library;assembly=jg.Editor.Library" 
+        xmlns:my="clr-namespace:jg.Editor.Library.Control;assembly=jg.Editor.Library"
+        xmlns:Property="clr-namespace:jg.Editor.Library.Property;assembly=jg.Editor.Library"
+        x:Class="jg.PCPlayerLibrary.WindowPreview"
+        Title="WindowPreview" 
+        PreviewMouseLeftButtonDown="Window_PreviewMouseLeftButtonDown"
+        PreviewMouseLeftButtonUp="Window_PreviewMouseLeftButtonUp"
+        WindowState="Maximized"
+        WindowStyle="None" 
+        Height="392" 
+        Width="698"
+        KeyUp="Window_KeyUp"
+        Loaded="Window_Loaded">
+
+    <Grid x:Name="grid">
+        <Frame NavigationUIVisibility="Hidden" Grid.Column="1" x:Name="frame"/>
+    </Grid>
+</Window>

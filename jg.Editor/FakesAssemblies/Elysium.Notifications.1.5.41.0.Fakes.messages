@@ -1,0 +1,17 @@
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.Animation 生成存根: 类型是一个值类型。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.INotificationManager 生成存根: 类型对 exported or assembly(Elysium.Notifications.1.5.41.0.Fakes) 不可见。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.Client.NotificationManager 生成存根: 类型已密封。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.HorizontalPlacement 生成存根: 类型是一个值类型。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.Notification 生成存根: 类型已密封。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.NotificationManager 生成存根: 类型已密封。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.VerticalPlacement 生成存根: 类型是一个值类型。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.Animation 生成填充码: 类型是一个枚举。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.INotificationManager 生成填充码: 类型是一个接口。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.Client.NotificationManager 生成填充码: 类型对 exported or assembly(Elysium.Notifications.1.5.41.0.Fakes) 不可见。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.HorizontalPlacement 生成填充码: 类型是一个枚举。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.Notification 生成填充码: 类型对 exported or assembly(Elysium.Notifications.1.5.41.0.Fakes) 不可见。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.NotificationManager+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.NotificationManager+<>c__DisplayClass4 生成填充码: 类型不受支持，因为存在内部限制。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.NotificationManager+<>c__DisplayClassa 生成填充码: 类型不受支持，因为存在内部限制。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.NotificationManager+<>c__DisplayClassc 生成填充码: 类型不受支持，因为存在内部限制。
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Fakes\Elysium.Notifications.fakes : warning : 无法为 Elysium.Notifications.VerticalPlacement 生成填充码: 类型是一个枚举。

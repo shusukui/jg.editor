@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="jg.Editor.Library.Property.ControlPropertyTopic"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Height="{Binding Height,ElementName=grid}" 
+             Loaded="UserControl_Loaded" d:DesignWidth="258">
+
+    <Grid Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="{Binding Height,ElementName=txtTitle}" />
+            <RowDefinition Height="{Binding Height,ElementName=txt1}" />
+            <RowDefinition Height="{Binding Height,ElementName=txt2}" />
+            <RowDefinition Height="{Binding Height,ElementName=txt3}" />
+            <RowDefinition Height="{Binding Height,ElementName=txt4}" />
+            <RowDefinition Height="{Binding Height,ElementName=txt5}" />
+            <RowDefinition Height="{Binding Height,ElementName=txt6}" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="75*"/>
+            <ColumnDefinition Width="15*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0" Text="{StaticResource FF000041}"/>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0" Text="{StaticResource FF000042}"/>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="0" Text="{StaticResource FF000043}"/>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="0" Text="{StaticResource FF000044}"/>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="0" Text="{StaticResource FF000045}"/>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="5" Grid.Column="0" Text="{StaticResource FF000046}"/>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="6" Grid.Column="0" Text="{StaticResource FF000047}"/>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="7" Grid.Column="0" Text="{StaticResource FF000048}"/>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="8" Grid.Column="0" Text="{StaticResource FF000049}"/>
+
+        <ComboBox Style="{StaticResource CboCommomStyle}" Grid.Row="0" VerticalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" SelectedIndex="0" SelectionChanged="cmbList_SelectionChanged" Name="cmbList">
+            <ComboBoxItem Content="{StaticResource FF00004A}"/>
+            <ComboBoxItem Content="{StaticResource FF00004B}"/>
+            <ComboBoxItem Content="{StaticResource FF00004C}"/>
+        </ComboBox>
+        <TextBox Name="txtNumber" IsReadOnly="True" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" 
+                 Width="60"
+                 TextChanged="txtNumber_TextChanged"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" Text="{StaticResource FF000075}"></TextBlock>
+
+        <TextBox TextChanged="txtScore_TextChanged" Name="txtScore" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" 
+                 />
+
+        <CheckBox Checked="checkBox_Checked" Unchecked="checkBox_Checked" Name="checkBox0" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <CheckBox Checked="checkBox_Checked" Unchecked="checkBox_Checked" Name="checkBox1" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <CheckBox Checked="checkBox_Checked" Unchecked="checkBox_Checked" Name="checkBox2" Grid.Row="5" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <CheckBox Checked="checkBox_Checked" Unchecked="checkBox_Checked" Name="checkBox3" Grid.Row="6" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <CheckBox Checked="checkBox_Checked" Unchecked="checkBox_Checked" Name="checkBox4" Grid.Row="7" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <CheckBox Checked="checkBox_Checked" Unchecked="checkBox_Checked" Name="checkBox5" Grid.Row="8" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <TextBox TextChanged="txt_TextChanged" Name="txtTitle" Grid.ColumnSpan="2" MinHeight="25" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap"/>
+
+        <TextBox TextChanged="txt_TextChanged" Name="txt0" MinHeight="25" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap"/>
+        <TextBox TextChanged="txt_TextChanged" Name="txt1" MinHeight="25" Grid.Row="4" Grid.Column="1" TextWrapping="Wrap"/>
+        <TextBox TextChanged="txt_TextChanged" Name="txt2" MinHeight="25" Grid.Row="5" Grid.Column="1" TextWrapping="Wrap"/>
+        <TextBox TextChanged="txt_TextChanged" Name="txt3" MinHeight="25" Grid.Row="6" Grid.Column="1" TextWrapping="Wrap"/>
+        <TextBox TextChanged="txt_TextChanged" Name="txt4" MinHeight="25" Grid.Row="7" Grid.Column="1" TextWrapping="Wrap"/>
+        <TextBox TextChanged="txt_TextChanged" Name="txt5" MinHeight="25" Grid.Row="8" Grid.Column="1" TextWrapping="Wrap"/>
+
+
+
+    </Grid>
+</UserControl>

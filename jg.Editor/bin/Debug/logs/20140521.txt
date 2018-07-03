@@ -1,0 +1,425 @@
+记录时间：2014-05-21 09:43:27,886 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 09:43:28,816 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 09:43:54,644 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 10:05:20,243 线程ID:[11] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 10:05:21,271 线程ID:[11] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 10:05:46,958 线程ID:[11] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 10:10:02,690 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 10:10:03,605 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 10:10:29,410 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 10:11:03,326 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:11:05,505 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:11:07,498 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\Desktop\e.jgc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.windowSave.Location(String path, List`1 dataFileList, List`1 assetFileList) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\windowSave.xaml.cs:行号 378
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1515
+记录时间：2014-05-21 10:12:13,693 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:14:19,651 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 10:14:20,576 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 10:14:46,248 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 10:16:04,008 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 359
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:16:24,027 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 359
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:16:30,105 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 359
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:16:34,202 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\Desktop\3334.jgc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.windowSave.Location(String path, List`1 dataFileList, List`1 assetFileList) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\windowSave.xaml.cs:行号 378
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1515
+记录时间：2014-05-21 10:16:35,791 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\Desktop\3334.jgc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.windowSave.Location(String path, List`1 dataFileList, List`1 assetFileList) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\windowSave.xaml.cs:行号 378
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1515
+记录时间：2014-05-21 10:16:44,162 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\Desktop\3334.jgc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.windowSave.Location(String path, List`1 dataFileList, List`1 assetFileList) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\windowSave.xaml.cs:行号 378
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1515
+记录时间：2014-05-21 10:20:56,372 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 359
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:21:05,620 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 359
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:23:15,617 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content)
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info)
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 359
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:26:03,521 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content)
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument)
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info)
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:27:43,634 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 10:27:44,614 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 10:28:10,137 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 10:30:30,820 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 10:30:31,755 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 10:30:57,261 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 10:31:33,769 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:31:36,412 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\Desktop\dsada.jgc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.windowSave.Location(String path, List`1 dataFileList, List`1 assetFileList) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\windowSave.xaml.cs:行号 378
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1515
+记录时间：2014-05-21 10:31:48,610 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:31:50,840 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：文件“C:\Users\lihongwei.RUGU\Desktop\dsada.jgc”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.windowSave.Location(String path, List`1 dataFileList, List`1 assetFileList) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\windowSave.xaml.cs:行号 378
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1515
+记录时间：2014-05-21 10:32:03,837 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:32:59,002 线程ID:[9] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：StartIndex 不能小于 0。
+参数名: startIndex
+   在 System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   在 System.String.Substring(Int32 startIndex)
+   在 jg.HTMLConverter.HtmlToXamlConverter.Convert2(String content) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 107
+   在 jg.HTMLConverter.HtmlToXamlConverter.ConvertHtmlToXaml(String htmlString, Boolean asFlowDocument) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\HTMLConvert\HtmlToXamlConverter.cs:行号 85
+   在 jg.Editor.Library.ToolboxItem.GetToolBoxItemPreview(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor.Library\ToolboxItem.cs:行号 670
+   在 jg.PCPlayerLibrary.PageStage.CreateElement(SaveItemInfo info) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 517
+   在 jg.PCPlayerLibrary.PageStage.PageItemProperty_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 506
+   在 System.Windows.DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)
+   在 System.Windows.DependencyObject.NotifyPropertyChange(DependencyPropertyChangedEventArgs args)
+   在 System.Windows.DependencyObject.UpdateEffectiveValue(EntryIndex entryIndex, DependencyProperty dp, PropertyMetadata metadata, EffectiveValueEntry oldEntry, EffectiveValueEntry& newEntry, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType)
+   在 System.Windows.DependencyObject.SetValueCommon(DependencyProperty dp, Object value, PropertyMetadata metadata, Boolean coerceWithDeferredReference, Boolean coerceWithCurrentValue, OperationType operationType, Boolean isInternal)
+   在 System.Windows.DependencyObject.SetValue(DependencyProperty dp, Object value)
+   在 jg.PCPlayerLibrary.PageStage.set_PageItem(SavePageInfo value) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 461
+   在 jg.PCPlayerLibrary.PageStage..ctor(enumStageSwitch abstractswitch, SavePageInfo pageitem, String direction) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\PageStage.xaml.cs:行号 93
+   在 jg.PCPlayerLibrary.MainWindow.AddPage(ObservableCollection`1 list) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 356
+   在 jg.PCPlayerLibrary.MainWindow..ctor() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\MainWindow.xaml.cs:行号 76
+   在 jg.Editor.MainWindow.Preview_Click(Object sender, RoutedEventArgs e) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1521
+记录时间：2014-05-21 10:35:22,020 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 10:35:22,960 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 10:35:48,441 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 10:42:22,411 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 10:42:23,356 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 10:42:48,266 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 10:45:27,094 线程ID:[19] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\123456789.jgc\c7155aee-7f1d-432e-bc4e-d43c725d99d1_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-21 10:50:46,064 线程ID:[11] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\12312312312312312.jgc\c7155aee-7f1d-432e-bc4e-d43c725d99d1_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-21 11:26:57,926 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 11:26:59,263 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 11:27:24,749 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 11:45:29,048 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 11:45:30,174 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 11:45:55,805 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 11:50:52,211 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 11:50:53,469 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 11:51:18,926 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 13:49:53,900 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 13:49:54,883 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 13:50:20,522 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 14:58:32,013 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 14:58:32,935 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 14:58:58,186 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 15:03:33,745 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 15:03:34,908 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 15:03:59,204 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 15:09:15,974 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 15:09:17,816 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 15:09:43,240 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 15:24:29,336 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 15:24:30,540 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 15:24:56,382 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 15:46:19,306 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 15:46:20,751 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 15:46:46,217 线程ID:[12] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 15:47:33,858 线程ID:[18] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\41edd272-c82d-4e38-baf4-6c7f603e17e4.jgc\0b6947da-6907-44ff-94b2-3a22d84c3e6e_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-21 15:47:45,249 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 15:47:46,264 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 15:48:11,728 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 15:50:11,921 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 15:50:12,846 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 15:50:38,416 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 15:58:44,271 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 15:58:45,503 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 15:59:11,111 线程ID:[15] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 16:03:46,715 线程ID:[10] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 16:03:48,792 线程ID:[10] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 16:04:14,338 线程ID:[10] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 16:17:39,310 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 16:17:40,225 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 16:18:05,789 线程ID:[13] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 16:24:12,546 线程ID:[16] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:8 Login
+记录时间：2014-05-21 16:24:13,479 线程ID:[16] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:8 Successful login
+记录时间：2014-05-21 16:24:39,963 线程ID:[16] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 16:39:21,747 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 16:39:22,732 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 16:39:48,500 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 16:50:22,720 线程ID:[5] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 16:50:22,811 线程ID:[5] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 16:50:48,507 线程ID:[5] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 16:52:07,089 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Login
+记录时间：2014-05-21 16:52:07,997 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:1 Successful login
+记录时间：2014-05-21 16:52:33,612 线程ID:[14] 日志级别：INFO  所属类：jg.Editor.Globals property:[(null)] - 描述：Initialize Data
+记录时间：2014-05-21 16:53:07,731 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\商业附加险ok.jgc\0177d0bd-0dd4-46f7-a707-8f3b5dc475b2_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141
+记录时间：2014-05-21 16:55:18,831 线程ID:[10] 日志级别：ERROR 所属类：jg.Editor.Globals property:[(null)] - 描述：文件“E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\bin\Debug\商业附加险ok.jgc\0177d0bd-0dd4-46f7-a707-8f3b5dc475b2_s.png”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalDelete(String path, Boolean checkHost)
+   在 System.IO.File.Delete(String path)
+   在 jg.Editor.Globals.Release() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Globals.cs:行号 141

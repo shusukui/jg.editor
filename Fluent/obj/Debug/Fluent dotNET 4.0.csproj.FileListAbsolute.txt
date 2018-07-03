@@ -1,0 +1,373 @@
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.XML
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.pdb
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.CodeAnalysisLog.xml
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.lastcodeanalysissucceeded
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.dll
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.xml
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\de\System.Windows.Interactivity.resources.dll
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\en\System.Windows.Interactivity.resources.dll
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\es\System.Windows.Interactivity.resources.dll
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\it\System.Windows.Interactivity.resources.dll
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Fluent dotNET 4.0.csprojResolveAssemblyReference.cache
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScrollBar.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Fonts.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Generic.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\Colors.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\ColorsWhite.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Backstage.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageControls.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabControl.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabItem.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Button.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBox.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBoxItem.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\DropDownButton.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Gallery.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\GalleryItem.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\InRibbonGallery.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\KeyTip.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Ribbon.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonContextualTabGroup.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonGroupBox.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonStatusBar.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabControl.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabItem.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScreenTip.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Slider.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Spinner.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\SplitButton.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\StatusBar.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ToggleButton.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\TwoLineLabel.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\MetroWindow.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\RibbonWindow.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\White.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Black.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.g.resources
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.dll
+E:\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.pdb
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.XML
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.pdb
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.CodeAnalysisLog.xml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.lastcodeanalysissucceeded
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.xml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\de\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\en\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\es\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\it\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Fluent dotNET 4.0.csprojResolveAssemblyReference.cache
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScrollBar.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Fonts.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Generic.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\Colors.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\ColorsWhite.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Backstage.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageControls.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabControl.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabItem.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Button.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBox.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBoxItem.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\DropDownButton.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Gallery.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\GalleryItem.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\InRibbonGallery.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\KeyTip.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Ribbon.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonContextualTabGroup.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonGroupBox.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonStatusBar.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabControl.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabItem.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScreenTip.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Slider.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Spinner.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\SplitButton.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\StatusBar.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ToggleButton.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\TwoLineLabel.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\MetroWindow.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\RibbonWindow.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Metro\White.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Black.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Fluent.g.resources
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Fluent.dll
+E:\10_10_20_240_MINI2\2012\jg.Editor\Fluent\obj\Debug\Fluent.pdb
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.XML
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.pdb
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.CodeAnalysisLog.xml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.lastcodeanalysissucceeded
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.xml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\de\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\en\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\es\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\it\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScrollBar.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Fonts.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Generic.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\Colors.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\ColorsWhite.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Backstage.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageControls.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabControl.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabItem.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Button.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBox.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBoxItem.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\DropDownButton.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Gallery.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\GalleryItem.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\InRibbonGallery.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\KeyTip.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Ribbon.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonContextualTabGroup.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonGroupBox.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonStatusBar.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabControl.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabItem.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScreenTip.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Slider.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Spinner.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\SplitButton.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\StatusBar.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ToggleButton.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\TwoLineLabel.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\MetroWindow.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\RibbonWindow.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\White.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Black.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.g.resources
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.pdb
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\Fluent\obj\Debug\Fluent dotNET 4.0.csprojResolveAssemblyReference.cache
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.XML
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.pdb
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.CodeAnalysisLog.xml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.lastcodeanalysissucceeded
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.xml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\de\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\en\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\es\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\it\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScrollBar.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Fonts.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Generic.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\Colors.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\ColorsWhite.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Backstage.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageControls.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabControl.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabItem.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Button.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBox.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBoxItem.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\DropDownButton.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Gallery.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\GalleryItem.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\InRibbonGallery.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\KeyTip.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Ribbon.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonContextualTabGroup.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonGroupBox.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonStatusBar.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabControl.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabItem.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScreenTip.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Slider.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Spinner.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\SplitButton.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\StatusBar.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ToggleButton.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\TwoLineLabel.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\MetroWindow.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\RibbonWindow.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\White.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Black.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.g.resources
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.pdb
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.XML
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.pdb
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.CodeAnalysisLog.xml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.lastcodeanalysissucceeded
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.xml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\de\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\en\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\es\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\it\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScrollBar.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Fonts.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Generic.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\Colors.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\ColorsWhite.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Backstage.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageControls.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabControl.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabItem.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Button.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBox.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBoxItem.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\DropDownButton.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Gallery.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\GalleryItem.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\InRibbonGallery.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\KeyTip.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Ribbon.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonContextualTabGroup.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonGroupBox.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonStatusBar.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabControl.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabItem.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScreenTip.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Slider.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Spinner.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\SplitButton.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\StatusBar.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ToggleButton.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\TwoLineLabel.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\MetroWindow.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\RibbonWindow.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\White.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Black.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.g.resources
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.pdb
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent dotNET 4.0.csprojResolveAssemblyReference.cache
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.XML
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.pdb
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.CodeAnalysisLog.xml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.lastcodeanalysissucceeded
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.xml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\de\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\en\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\es\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\it\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent dotNET 4.0.csprojAssemblyReference.cache
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScrollBar.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Fonts.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Generic.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\Colors.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Colors\ColorsWhite.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Backstage.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageControls.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabControl.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabItem.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Button.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBox.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBoxItem.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\DropDownButton.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Gallery.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\GalleryItem.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\InRibbonGallery.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\KeyTip.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Ribbon.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonContextualTabGroup.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonGroupBox.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonStatusBar.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabControl.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabItem.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ScreenTip.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Slider.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\Spinner.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\SplitButton.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\StatusBar.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\ToggleButton.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\Controls\TwoLineLabel.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\MetroWindow.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\RibbonWindow.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Metro\White.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Black.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.g.resources
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent dotNET 4.0.csproj.CoreCompileInputs.cache
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent dotNET 4.0.csproj.CopyComplete
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.pdb

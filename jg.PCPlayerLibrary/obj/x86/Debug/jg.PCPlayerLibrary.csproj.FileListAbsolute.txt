@@ -1,0 +1,396 @@
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.pdb
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\bin\Debug\WPFToolkit.Extended.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.UnityWebPlayerAXLib.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.UnityWebPlayerAXLib.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.pdb
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csprojResolveAssemblyReference.cache
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.UnityWebPlayerAXLib.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.UnityWebPlayerAXLib.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.ResolveComReference.cache
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.baml
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.baml
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Resources\Document.baml
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.baml
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.baml
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.baml
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.baml
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.baml
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.baml
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.g.cs
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.g.cs
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.g.cs
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.g.cs
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.g.cs
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.g.cs
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.g.cs
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.g.cs
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary_MarkupCompile.cache
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.g.resources
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.Properties.Resources.resources
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.GenerateResource.Cache
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.dll
+E:\工作\TFS\DevSrc\项目源码\平台NTP01\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.pdb
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.pdb
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\bin\Debug\WPFToolkit.Extended.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.UnityWebPlayerAXLib.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.UnityWebPlayerAXLib.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.pdb
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csprojResolveAssemblyReference.cache
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.UnityWebPlayerAXLib.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.UnityWebPlayerAXLib.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.ResolveComReference.cache
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Resources\Document.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.g.cs
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.g.cs
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.g.cs
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.g.cs
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.g.cs
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.g.cs
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.g.cs
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.g.cs
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary_MarkupCompile.cache
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.g.resources
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.Properties.Resources.resources
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.GenerateResource.Cache
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (7)\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.pdb
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.pdb
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\bin\Debug\WPFToolkit.Extended.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.UnityWebPlayerAXLib.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.UnityWebPlayerAXLib.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.pdb
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csprojResolveAssemblyReference.cache
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.UnityWebPlayerAXLib.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.UnityWebPlayerAXLib.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.ResolveComReference.cache
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Resources\Document.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.g.cs
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.g.cs
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.g.cs
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.g.cs
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.g.cs
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.g.cs
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.g.cs
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.g.cs
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary_MarkupCompile.cache
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.g.resources
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.Properties.Resources.resources
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.GenerateResource.Cache
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.pdb
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.pdb
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\WPFToolkit.Extended.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.UnityWebPlayerAXLib.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.UnityWebPlayerAXLib.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.pdb
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csprojResolveAssemblyReference.cache
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.UnityWebPlayerAXLib.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.UnityWebPlayerAXLib.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.ResolveComReference.cache
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.baml
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.baml
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Resources\Document.baml
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.baml
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.baml
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.baml
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.baml
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.baml
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.baml
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.g.cs
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.g.cs
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.g.cs
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.g.cs
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.g.cs
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.g.cs
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.g.cs
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.g.cs
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary_MarkupCompile.cache
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.g.resources
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.Properties.Resources.resources
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.GenerateResource.Cache
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.dll
+E:\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.pdb
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.pdb
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\System.Windows.Interactivity.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Elysium.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\WPFToolkit.Extended.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.UnityWebPlayerAXLib.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Expression.Drawing.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Windows.Shell.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.UnityWebPlayerAXLib.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.pdb
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.xml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.pdb
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.pdb
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.xml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\System.Windows.Interactivity.xml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Elysium.pdb
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Elysium.xml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Expression.Drawing.xml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Windows.Shell.pdb
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Windows.Shell.xml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csprojResolveAssemblyReference.cache
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.UnityWebPlayerAXLib.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.UnityWebPlayerAXLib.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.ResolveComReference.cache
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\MainWindow.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Resources\Document.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.baml
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.g.cs
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\MainWindow.g.cs
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.g.cs
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.g.cs
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.g.cs
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.g.cs
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.g.cs
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.g.cs
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.g.cs
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary_MarkupCompile.cache
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.g.resources
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.Properties.Resources.resources
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.GenerateResource.Cache
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.dll
+E:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.pdb
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.pdb
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\System.Windows.Interactivity.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Elysium.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\WPFToolkit.Extended.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.UnityWebPlayerAXLib.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Expression.Drawing.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Windows.Shell.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.UnityWebPlayerAXLib.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.pdb
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.xml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.pdb
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.pdb
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.xml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\System.Windows.Interactivity.xml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Expression.Drawing.xml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csprojResolveAssemblyReference.cache
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.UnityWebPlayerAXLib.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.UnityWebPlayerAXLib.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.ResolveComReference.cache
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\MainWindow.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Resources\Document.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.baml
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.g.cs
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\MainWindow.g.cs
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.g.cs
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.g.cs
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.g.cs
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.g.cs
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.g.cs
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.g.cs
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.g.cs
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary_MarkupCompile.cache
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.g.resources
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.Properties.Resources.resources
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.GenerateResource.Cache
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.dll
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.pdb
+E:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\stdole.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csprojResolveAssemblyReference.cache
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.ResolveComReference.cache
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\MainWindow.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Resources\Document.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.baml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.g.cs
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\MainWindow.g.cs
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.g.cs
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.g.cs
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.g.cs
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.g.cs
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.g.cs
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.g.cs
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.g.cs
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary_MarkupCompile.cache
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.g.resources
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.Properties.Resources.resources
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.GenerateResource.Cache
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.pdb
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.pdb
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\System.Windows.Interactivity.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\WPFToolkit.Extended.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Elysium.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Windows.Shell.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.pdb
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.xml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.pdb
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.pdb
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.xml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\System.Windows.Interactivity.xml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.PCPlayerLibrary.pdb
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\System.Windows.Interactivity.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\WPFToolkit.Extended.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Elysium.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Expression.Drawing.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Windows.Shell.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.pdb
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Fluent.xml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.pdb
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\jg.Editor.Library.dll.config
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.pdb
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Skybound.Gecko.xml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\System.Windows.Interactivity.xml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Microsoft.Expression.Drawing.xml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csprojAssemblyReference.cache
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.ResolveComReference.cache
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\MainWindow.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\Resources\Document.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.baml
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\App.g.cs
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\MainWindow.g.cs
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\PageStage.g.cs
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowAssetShow.g.cs
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowClose.g.cs
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowControl.g.cs
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\WindowPreview.g.cs
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowProcess.g.cs
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\windowTree.g.cs
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary_MarkupCompile.cache
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.g.resources
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.Properties.Resources.resources
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.GenerateResource.cache
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.CoreCompileInputs.cache
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.csproj.CopyComplete
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.dll
+E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\jg.PCPlayerLibrary\obj\x86\Debug\jg.PCPlayerLibrary.pdb

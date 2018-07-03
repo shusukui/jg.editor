@@ -1,0 +1,247 @@
+﻿<UserControl x:Class="jg.Editor.Library.Property.ControlPropertyFont"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignWidth="258" d:DesignHeight="194">
+    
+    <UserControl.Resources>
+        <Style TargetType="RowDefinition">
+            <Setter Property="Height" Value="25"/>
+        </Style>
+
+        <Style TargetType="{x:Type Button}" x:Key="formatTextStyle">
+            <Setter Property="FontFamily" Value="Palatino Linotype"></Setter>
+            <Setter Property="Width" Value="30"></Setter>
+            <Setter Property="FontSize" Value ="14"></Setter>
+        </Style>
+
+        <Style TargetType="{x:Type Button}" x:Key="formatImageStyle">
+            <Setter Property="Width" Value="30"></Setter>
+        </Style>
+        
+    </UserControl.Resources>
+    
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+
+        </Grid.RowDefinitions>
+
+        <TextBlock Margin="5,0,0,0" HorizontalAlignment="Left"
+                   VerticalAlignment="Center"
+                   FontWeight="Normal" 
+                   FontStyle="Normal" 
+                   Text="{StaticResource FF000019}"/>
+        
+        <ComboBox Margin="30,0,0,0" Style="{StaticResource CboCommomStyle}" 
+                  Grid.Row="0" 
+                  Name="cmbFontList" 
+                  SelectionChanged="cmbFontList_SelectionChanged"/>
+
+        <TextBlock Margin="5,0,0,0" HorizontalAlignment="Left"
+                   VerticalAlignment="Center" 
+                   Grid.Row="0" Grid.Column="1"
+                   Text="{StaticResource FF00001A}"/>
+
+        <TextBox Margin="30,0,0,0" Name="txtFontSize"  Text="18"
+                 Grid.Row="0" Grid.Column="1" />
+
+        <TextBlock Visibility="Collapsed"  Name="tbLineHeight" Margin="5,0,0,0" HorizontalAlignment="Left"
+                   VerticalAlignment="Center" Grid.Row="1"
+                   FontWeight="Normal" 
+                   FontStyle="Normal" 
+                   Text="{StaticResource FF00007D}"/>
+        <TextBox Visibility="Collapsed" Margin="30,0,0,0" Name="txtLineHeight" 
+                 Grid.Row="1" Grid.Column="0"/>
+
+
+        <CheckBox  Name="chkIsLongText" Margin="5,0,0,0" HorizontalAlignment="Left" Visibility="Collapsed"
+                   VerticalAlignment="Center" Grid.Row="1" Grid.Column="1"
+                   FontWeight="Normal"  Checked="chkIsLongText_Checked"
+                   FontStyle="Normal" 
+                   Content="{StaticResource FF000082}"/>
+        <TextBlock Visibility="Collapsed" Margin="30,0,0,0" 
+                 Grid.Row="1" Grid.Column="0"/>
+
+        <WrapPanel Grid.Row="2" Grid.ColumnSpan="2">
+            
+            <ToggleButton Width="26" Height="26" Margin="5" Name="toggleBold"
+                          Grid.Column="0"
+                          HorizontalAlignment="Center"
+                          Click="toggleBold_Click" 
+                          >
+                <Image Source="/jg.Editor.Library;component/Image/text_Bold.png"/>
+            </ToggleButton>
+            <ToggleButton Width="26" Height="26" Margin="5" Name="toggleItalic" 
+                          Grid.Column="1"
+                          HorizontalAlignment="Center"
+                          Click="toggleItalic_Click" 
+                          >
+                <Image Source="/jg.Editor.Library;component/Image/text_Italic.png"/>
+            </ToggleButton>
+
+            <Button Width="26" Height="26" Style="{StaticResource formatImageStyle}"
+                    Command="ApplicationCommands.Cut" 
+                    Name="btnCut"
+                    Margin="5"
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_Cut.png"/>
+            </Button>
+
+            <Button Width="26" Height="26" Style="{StaticResource formatImageStyle}" 
+                    Command="ApplicationCommands.Copy" 
+                    Name="btnCopy" 
+                    Margin="5" 
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_Copy.png"/>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="ApplicationCommands.Paste"
+                    Name="btnPaste"
+                    Width="26" Height="26"
+                    Margin="5"
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_Paste.png"/>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="ApplicationCommands.Undo" 
+                    Name="btnUndo" 
+                    Width="26" Height="26"
+                    Margin="5"
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_Undo.png"/>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}" 
+                    Command="ApplicationCommands.Redo"
+                    Name="btnRedo" 
+                    Margin="5" 
+                    Width="26" Height="26"
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_Redo.png"/>
+            </Button>
+
+            <Button Style="{StaticResource formatTextStyle}"
+                    Command="EditingCommands.ToggleBold"
+                    Name="btnBold" 
+                    Width="26" Height="26"
+                    Margin="5"
+                    Visibility="Collapsed" 
+                    >
+                <Image Source="/jg.Editor.Library;component/Image/text_Bold.png"/>
+            </Button>
+
+
+            <Button Style="{StaticResource formatTextStyle}" 
+                    Command="EditingCommands.ToggleItalic" 
+                    Name="btnItalic" 
+                    Width="26" Height="26"
+                    Margin="5" 
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_Italic.png"/>
+            </Button>
+
+
+            <Button Style="{StaticResource formatTextStyle}"
+                    Command="EditingCommands.ToggleUnderline"
+                    Name="btnUnderline"
+                    Width="26" Height="26"
+                    Margin="5" 
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_Underline.png"/>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="EditingCommands.IncreaseFontSize" 
+                    Name="btnIncreaseFontSize" 
+                    Width="26" Height="26"
+                    Margin="5" 
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_IncreaseFontSize.png"/>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="EditingCommands.DecreaseFontSize"
+                    Name="btnDecreaseFontSize"
+                    Width="26" Height="26"
+                    Margin="5"
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_DecreaseFontSize.png"/>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="EditingCommands.ToggleBullets" 
+                    Name="btnToggleBullets" 
+                    Width="26" Height="26"
+                    Margin="5"
+                    Visibility="Collapsed" Content="段1"/>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="EditingCommands.ToggleNumbering" 
+                    Name="btnToggleNumbering"
+                    Width="26" Height="26"
+                    Margin="5" 
+                    Visibility="Collapsed" 
+                    Content="段2"/>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="EditingCommands.AlignLeft"
+                    Name="btnAlignLeft"
+                    Width="26" Height="26"
+                    Margin="5"
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_AlignLeft.png"/>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="EditingCommands.AlignCenter"
+                    Name="btnAlignCenter" 
+                    Width="26" Height="26"
+                    Margin="5"
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_AlignCenter.png"/>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="EditingCommands.AlignRight"
+                    Name="btnAlignRight" 
+                    Width="26" Height="26"
+                    Margin="5"
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_AlignRight.png"/>
+            </Button>
+
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="EditingCommands.IncreaseIndentation"
+                    Name="btnIncreaseIndentation" 
+                    Width="26" Height="26"
+                    Margin="5" 
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_IncreaseIndentation.png"/>
+            </Button>
+            
+            <Button Style="{StaticResource formatImageStyle}"
+                    Command="EditingCommands.DecreaseIndentation" 
+                    Name="btnDecreaseIndentation"
+                    Width="26" Height="26"
+                    Margin="5" 
+                    Visibility="Collapsed">
+                <Image Source="/jg.Editor.Library;component/Image/text_DecreaseIndentation.png"/>
+            </Button>
+            
+        </WrapPanel>
+        
+    </Grid>
+    
+</UserControl>

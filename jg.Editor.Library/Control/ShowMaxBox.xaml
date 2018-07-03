@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="jg.Editor.Library.ShowMaxBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.RowSpan="2" x:Name="Gridbody">
+            
+        </Grid>
+        <Button  Height="27" Width="27" FocusVisualStyle="{x:Null}"   HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0" Grid.Row="1" Click="Button_Click">
+            <Button.Style >
+                <Style  TargetType="Button">
+                    <Setter Property="Template" >
+                        <Setter.Value>
+                            <ControlTemplate>
+                             
+                                <Grid>
+                                    
+                                    <Ellipse Height="25" Width="25" x:Name="ellipse" StrokeThickness="3" Stroke="White">
+                                        <Ellipse.Effect>
+                                            <DropShadowEffect Color="Black"  BlurRadius="15" ></DropShadowEffect>
+                                        </Ellipse.Effect>
+                                    </Ellipse>
+                                    <Path ToolTip="{StaticResource  FF00008E}" Stroke="White" Data="M9.7332363,25.766869 L12.966537,25.766869 L12.966537,34.300117 L21.166454,34.300117 L21.166454,37.400085 L12.966537,37.400085 L12.966537,46 L9.7332363,46 L9.7332363,37.400085 L1.5333179,37.400085 L1.5333179,34.300117 L9.7332363,34.300117 z" 
+                      Fill="#FF45494D" Height="17" Width="17" RenderTransformOrigin="0.5,0.5" Stretch="Fill"    >
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+                                   
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="true">
+                                        <Setter TargetName="ellipse" Property="Width" Value="27"></Setter>
+                                        <Setter TargetName="ellipse" Property="Height" Value="27"></Setter>
+                                    </Trigger>
+                                    <Trigger Property="IsMouseOver" Value="false">
+                                        <Setter TargetName="ellipse" Property="Width" Value="25"></Setter>
+                                        <Setter TargetName="ellipse" Property="Height" Value="25"></Setter>
+                                    </Trigger>
+                                    
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</UserControl>

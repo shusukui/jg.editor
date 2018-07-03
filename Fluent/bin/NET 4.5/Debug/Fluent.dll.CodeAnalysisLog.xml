@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\vs2013\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.dll">
+   <Modules>
+    <Module Name="fluent.dll">
+     <Namespaces>
+      <Namespace Name="Fluent">
+       <Types>
+        <Type Name="WindowCommands" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnNativeResourcesShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1049" Status="Active" Created="2014-03-24 02:45:21Z" FixCategory="NonBreaking">
+           <Issue Certainty="50" Level="CriticalError">在 'WindowCommands' 上实现 IDisposable。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ClosingWindow" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2014-03-24 02:45:21Z" FixCategory="Breaking">
+             <Issue Name="Second" Certainty="95" Level="Error">将 'WindowCommands.ClosingWindowEventHandler' 的第二个参数声明为 EventArgs，或者声明为扩展 EventArgs 的类型的名为“e”的实例。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Fluent.Metro.Native">
+       <Types>
+        <Type Name="UnsafeNativeMethods" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#SetClassLongPtr64(System.IntPtr,System.Int32,System.IntPtr)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="PInvokeEntryPointsShouldExist" Category="Microsoft.Interoperability" CheckId="CA1400" Status="Active" Created="2014-03-24 02:45:21Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="CriticalWarning">更正 'UnsafeNativeMethods.SetClassLongPtr64(IntPtr, int, IntPtr)' 的声明，使它正确地指向 'user32.dll' 中的现有入口点。当前链接到的非托管入口点的名称是 SetClassLongPtr。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WINDOWPLACEMENT" Kind="Struct" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#normalPosition" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2014-03-24 02:45:21Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">字段 'WINDOWPLACEMENT.normalPosition' 是可序列化的类型 'WINDOWPLACEMENT' 的成员，但该字段的类型是不可序列化的 'RECT'。请向 'WINDOWPLACEMENT.normalPosition' 添加 NonSerializedAttribute 特性。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009">
+   <Name>正确声明事件处理程序</Name>
+   <Description>按照约定，.NET 事件有两个参数，分别用于指定事件发送方和事件数据。事件处理程序签名应遵循以下形式:  void MyEventHandler(object sender, EventArgs e)。“sender”参数的类型始终是 System.Object，即使该参数可能使用更具体的类型。“e”参数的类型始终是 System.EventArgs。不提供事件数据的事件应使用 System.EventHandler 委托类型。事件处理程序返回 void 以便将每个事件发送给多个目标方法。目标返回的任何值在第一次调用之后将会丢失。</Description>
+   <Resolution Name="Second">将 {0} 的第二个参数声明为 EventArgs，或者声明为扩展 EventArgs 的类型的名为“e”的实例。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182133.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235">
+   <Name>标记所有不可序列化的字段</Name>
+   <Description>所有无法直接序列化的字段都应具有 NonSerializedAttribute 特性。对于具有 SerializableAttribute 特性的类型，都不应包含没有 SerializableAttribute 特性的类型字段，除非这些字段用 NonSerializedAttribute 进行了标记。</Description>
+   <Resolution Name="Default">字段 {0} 是可序列化的类型 {1} 的成员，但该字段的类型是不可序列化的 {2}。请向 {0} 添加 NonSerializedAttribute 特性。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182349.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokeEntryPointsShouldExist" Category="Microsoft.Interoperability" CheckId="CA1400">
+   <Name>P/Invoke 入口点应该存在</Name>
+   <Description>使用 DLLImport 特性修饰的方法应指向现有的非托管入口点。任何编译时检查都无法确保那些使用 DLLImportAttribute 特性修饰的方法在所引用的非托管 dll 中实际存在。如果入口点不存在或指定的参数列表不正确，则会生成运行时异常。</Description>
+   <Resolution Name="Default">更正 {0} 的声明，使它正确地指向 {1} 中的现有入口点。当前链接到的非托管入口点的名称是 {2}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182208.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalWarning</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnNativeResourcesShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1049">
+   <Name>拥有本机资源的类型应是可释放的</Name>
+   <Description>分配非托管资源的类型应实现 IDisposable，以便允许调用方根据需要释放这些资源。如果不能实现 IDisposable，则将导致非托管资源不可用或利用不足。</Description>
+   <Resolution Name="Default">在 {0} 上实现 IDisposable。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182173.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>

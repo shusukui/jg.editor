@@ -1,0 +1,158 @@
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\bin\NET 4.5\Debug\Fluent.XML
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\bin\NET 4.5\Debug\Fluent.dll
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\bin\NET 4.5\Debug\Fluent.pdb
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\bin\NET 4.5\Debug\Fluent.dll.CodeAnalysisLog.xml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\bin\NET 4.5\Debug\Fluent.dll.lastcodeanalysissucceeded
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\bin\NET 4.5\Debug\System.Windows.Interactivity.dll
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Fluent dotNET 4.5.csprojResolveAssemblyReference.cache
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\ScrollBar.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Fonts.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Generic.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Colors\Colors.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Colors\ColorsWhite.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\Backstage.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabControl.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabItem.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\Button.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\ComboBox.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\ComboBoxItem.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\DropDownButton.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\GalleryItem.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\Ribbon.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\RibbonContextualTabGroup.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\RibbonGroupBox.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\RibbonStatusBar.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabControl.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabItem.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\Slider.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\Spinner.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\SplitButton.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\StatusBar.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\Controls\ToggleButton.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\MetroWindow.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\RibbonWindow.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Metro\White.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Office2010\Black.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Fluent.g.resources
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Fluent.dll
+F:\wpfyuanmaheji\新建文件夹 (2)\fluent_72f5e3ec252b\Fluent\Fluent\obj\Debug\Fluent.pdb
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.XML
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Fluent dotNET 4.5.csprojResolveAssemblyReference.cache
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\ScrollBar.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Fonts.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Generic.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Colors\Colors.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Colors\ColorsWhite.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\Backstage.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabControl.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabItem.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\Button.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\ComboBox.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\ComboBoxItem.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\DropDownButton.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\GalleryItem.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\Ribbon.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\RibbonContextualTabGroup.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\RibbonGroupBox.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\RibbonStatusBar.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabControl.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabItem.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\Slider.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\Spinner.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\SplitButton.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\StatusBar.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\ToggleButton.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\MetroWindow.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\RibbonWindow.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\White.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Black.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Fluent.g.resources
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Fluent.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\obj\Debug\Fluent.pdb
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.pdb
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.dll.CodeAnalysisLog.xml
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.dll.lastcodeanalysissucceeded
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\System.Windows.Interactivity.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.XML
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.pdb
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.dll.CodeAnalysisLog.xml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\Fluent.dll.lastcodeanalysissucceeded
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\System.Windows.Interactivity.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Fluent dotNET 4.5.csprojResolveAssemblyReference.cache
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\ScrollBar.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Fonts.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Generic.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Colors\Colors.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Colors\ColorsWhite.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\Backstage.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabControl.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabItem.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\Button.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\ComboBox.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\ComboBoxItem.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\DropDownButton.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\GalleryItem.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\Ribbon.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\RibbonContextualTabGroup.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\RibbonGroupBox.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\RibbonStatusBar.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabControl.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabItem.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\Slider.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\Spinner.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\SplitButton.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\StatusBar.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\Controls\ToggleButton.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\MetroWindow.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\RibbonWindow.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Metro\White.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Black.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Fluent.g.resources
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Fluent.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\obj\Debug\Fluent.pdb
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹 (8)\jg.Editor - 副本\Fluent\bin\NET 4.5\Debug\System.Windows.Interactivity.xml

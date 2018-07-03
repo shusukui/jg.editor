@@ -1,0 +1,18 @@
+记录时间：2016-01-07 21:20:27,173 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：值不能为 null。
+   在 jg.Editor.Library.ControlTimeLine.Remove() 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor.Library\Control\ControlTimeLine.xaml.cs:行号 1053
+   在 jg.Editor.MainWindow.Button_Click_4(Object sender, RoutedEventArgs e) 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1716
+记录时间：2016-01-07 21:20:27,347 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：值不能为 null。
+   在 jg.Editor.Library.ControlTimeLine.Remove() 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor.Library\Control\ControlTimeLine.xaml.cs:行号 1053
+   在 jg.Editor.MainWindow.Button_Click_4(Object sender, RoutedEventArgs e) 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1716
+记录时间：2016-01-07 21:20:27,522 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：值不能为 null。
+   在 jg.Editor.Library.ControlTimeLine.Remove() 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor.Library\Control\ControlTimeLine.xaml.cs:行号 1053
+   在 jg.Editor.MainWindow.Button_Click_4(Object sender, RoutedEventArgs e) 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1716
+记录时间：2016-01-07 21:20:27,708 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：值不能为 null。
+   在 jg.Editor.Library.ControlTimeLine.Remove() 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor.Library\Control\ControlTimeLine.xaml.cs:行号 1053
+   在 jg.Editor.MainWindow.Button_Click_4(Object sender, RoutedEventArgs e) 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1716
+记录时间：2016-01-07 21:20:32,029 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：值不能为 null。
+   在 jg.Editor.Library.ControlTimeLine.Remove() 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor.Library\Control\ControlTimeLine.xaml.cs:行号 1053
+   在 jg.Editor.MainWindow.Button_Click_4(Object sender, RoutedEventArgs e) 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1716
+记录时间：2016-01-07 21:20:33,253 线程ID:[8] 日志级别：ERROR 所属类：jg.Editor.MainWindow property:[(null)] - 描述：值不能为 null。
+   在 jg.Editor.Library.ControlTimeLine.Remove() 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor.Library\Control\ControlTimeLine.xaml.cs:行号 1053
+   在 jg.Editor.MainWindow.Button_Click_4(Object sender, RoutedEventArgs e) 位置 e:\工作\WPF编辑器\编辑器\编辑器\jg.Editor\jg.Editor\MainWindow.xaml.cs:行号 1716

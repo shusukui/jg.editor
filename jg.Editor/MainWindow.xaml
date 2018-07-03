@@ -1,0 +1,1023 @@
+﻿<Fluent:RibbonWindow x:Class="jg.Editor.MainWindow"
+           xmlns:Fluent="clr-namespace:Fluent;assembly=Fluent"     
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{StaticResource FF00003A}" Height="768" Width="1024" 
+        WindowState="Maximized" KeyUp="RibbonWindow_KeyUp"
+                        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns:my1="clr-namespace:jg.Editor.Library.Property;assembly=jg.Editor.Library" 
+                     PreviewMouseDown="RibbonWindow_PreviewMouseDown"
+        Loaded="Window_Loaded" 
+        Closed="Window_Closed"                
+         
+        xmlns:my2="clr-namespace:jg.Editor.Library;assembly=jg.Editor.Library"
+        xmlns:my3="clr-namespace:jg.Editor.Library.Topic;assembly=jg.Editor.Library" 
+        xmlns:my="clr-namespace:jg.Editor.Library.Control;assembly=jg.Editor.Library"               
+        >
+
+    <Fluent:RibbonWindow.Resources>
+
+
+        <my2:DataConverterVisible x:Key="dc"/>
+
+        <Style TargetType="TreeViewItem">
+            <Setter Property="IsExpanded" Value="True">
+
+            </Setter>
+            <Setter Property="IsSelected" Value="{Binding  IsExpand,UpdateSourceTrigger=PropertyChanged}">
+
+            </Setter>
+
+        </Style>
+
+        <HierarchicalDataTemplate DataType="{x:Type my2:TreeViewItemInfo}" ItemsSource="{Binding Path=Children}">
+            <Grid >
+                <Grid.ContextMenu>
+                    <ContextMenu x:Name="GridMenu"    >
+                        <MenuItem x:Name="GridMain" Header="添加主目录"  Tag="{Binding  Path=ClassInfoBind}"  Click="GridMainAdd_Click" />
+                        <Separator Opacity="0.4"></Separator>
+                        <MenuItem x:Name="GridAdd" Header="添加子目录"  Tag="{Binding  Path=ClassInfoBind}"  Click="GridAdd_Click" />
+                        <Separator Opacity="0.4"></Separator>
+                        <MenuItem x:Name="GridDelete" Header="删除目录" Tag="{Binding  Path=ClassInfoBind}" Click="GridDelete_Click" />
+                        <Separator Opacity="0.4"></Separator>
+                        <MenuItem x:Name="GridUpdate" Header="修改目录" Tag="{Binding  Path=ClassInfoBind}" Click="GridUpdate_Click" />
+                        <Separator Opacity="0.4"></Separator>
+                    </ContextMenu>
+                </Grid.ContextMenu>
+                <Grid.RowDefinitions>
+                    
+                    <RowDefinition />
+                   
+                </Grid.RowDefinitions>
+
+           
+                <TextBlock Grid.Row="0"  Text="{Binding Path=Title}"  DataContext="{Binding  Path=ClassInfoBind}" Visibility="{Binding Path=IsTbVisabled}" AllowDrop="True" PreviewMouseUp="TextBlock_PreviewMouseUp"  QueryContinueDrag="TextBlock_QueryContinueDrag" PreviewMouseMove="TextBlock_MouseMove"  PreviewMouseDown="TextBlockEvent_MouseDown" Drop="PubDropTreeAndBlockEvent" />
+                <TextBox Grid.Row="0" Tag="{Binding  Path=ParentId}" Text="{Binding Path=Title}"  Width="120" Height="21"  Visibility="{Binding Path=IsTxtVisabled}" LostFocus="text_LostFocus" PreviewKeyDown="TextBox_PreviewKeyDown" PreviewMouseDoubleClick="TextBox_PreviewMouseDoubleClick"/>
+               
+            </Grid>
+        </HierarchicalDataTemplate>
+
+        <RoutedUICommand x:Key="Routed_New" Text="routedUICommandNew"/>
+        <RoutedUICommand x:Key="Routed_Load" Text="routedUICommandLoad"/>
+        <RoutedUICommand x:Key="Routed_Save" Text="routedUICommandSave"/>
+        <RoutedUICommand x:Key="Routed_Cut" Text="routedUICommandCut"/>
+        <RoutedUICommand x:Key="Routed_Copy" Text="routedUICommandCopy"/>
+        <RoutedUICommand x:Key="Routed_Paste" Text="routedUICommandPaste"/>
+        <RoutedUICommand x:Key="Routed_Undo" Text="routedUICommandUndo"/>
+        <RoutedUICommand x:Key="Routed_Redo" Text="routedUICommandRedo"/>
+    </Fluent:RibbonWindow.Resources>
+
+    <Fluent:RibbonWindow.InputBindings>
+        <KeyBinding Gesture="Ctrl+N" Key="N" Command="{StaticResource Routed_New}"/>
+        <KeyBinding Gesture="Ctrl+L" Key="L" Command="{StaticResource Routed_Load}"/>
+        <KeyBinding Gesture="Ctrl+S" Key="S" Command="{StaticResource Routed_Save}"/>
+        <KeyBinding Gesture="Ctrl+X" Key="X" Command="{StaticResource Routed_Cut}"/>
+        <KeyBinding Gesture="Ctrl+C" Key="C" Command="{StaticResource Routed_Copy}"/>
+        <KeyBinding Gesture="Ctrl+V" Key="V" Command="{StaticResource Routed_Paste}"/>
+        <KeyBinding Gesture="Ctrl+Z" Key="Z" Command="{StaticResource Routed_Undo}"/>
+        <KeyBinding Gesture="Ctrl+Y" Key="Y" Command="{StaticResource Routed_Redo}"/>
+
+    </Fluent:RibbonWindow.InputBindings>
+    <Fluent:RibbonWindow.CommandBindings>
+        <CommandBinding Command="{StaticResource Routed_New}"  CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+        <CommandBinding Command="{StaticResource Routed_Load}" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+        <CommandBinding Command="{StaticResource Routed_Save}" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+        <CommandBinding Command="{StaticResource Routed_Cut}"  CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+        <CommandBinding Command="{StaticResource Routed_Copy}" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+        <CommandBinding Command="{StaticResource Routed_Paste}" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+        <CommandBinding Command="{StaticResource Routed_Undo}" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+        <CommandBinding Command="{StaticResource Routed_Redo}" CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+
+    </Fluent:RibbonWindow.CommandBindings>
+
+    <Grid >
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Name="col1" Width="200"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Name="col5" Width="300"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="auto"/>
+            <RowDefinition Name="rowStage"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Name="row4" Height="150"/>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <!---->
+        <TabControl  Visibility="Collapsed" VerticalAlignment="Bottom" Height="115"
+                  
+                    BorderBrush="Black" 
+                    BorderThickness="1"
+                      Grid.Column="0"
+                    Grid.ColumnSpan="6"
+                    Name="tabControl1" >
+            <TabControl.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE1E1E1" Offset="1"/>
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FFE7E7E7" Offset="0.01"/>
+                    <GradientStop Color="#FFEDEDED" Offset="0.319"/>
+                </LinearGradientBrush>
+            </TabControl.Background>
+
+
+
+
+            <TabItem  >
+                <!--<ContentControl Content="{StaticResource FlowChartSymbols}"/>-->
+            </TabItem>
+
+            <TabItem >
+
+            </TabItem>
+
+            <TabItem >
+
+            </TabItem>
+            <TabItem >
+
+            </TabItem>
+        </TabControl>
+        <Border BorderThickness="0,0,0,1" BorderBrush="#FF8B9097" Grid.Column="0" Grid.ColumnSpan="5">
+            <Fluent:Ribbon AutomaticStateManagement="True" Grid.Column="0" Grid.ColumnSpan="5"
+                       x:Name="ribbon"    Margin="0,0,0,0">
+
+                <Fluent:Ribbon.ContextualGroups>
+                    <!--<Fluent:RibbonContextualTabGroup x:Name="tabGroup1"
+                                                 BorderBrush="Magenta"
+                                                 Background="Purple"
+                                                 Header="First"
+                                                 Visibility="Visible" />-->
+
+                    <!--<Fluent:RibbonContextualTabGroup x:Name="tabGroup2"
+                                                 BorderBrush="Green"
+                                                 Background="Lime"
+                                                 Header="Second"
+                                                 Visibility="Visible" />-->
+
+                    <Fluent:RibbonContextualTabGroup x:Name="invisibleTabGroup"
+                                                 BorderBrush="Green"
+                                                 Background="Red"
+                                                 Header="MUST BE HIDDEN"
+                                                 Visibility="Visible" />
+                </Fluent:Ribbon.ContextualGroups>
+
+                <Fluent:Ribbon.Menu>
+                    <Fluent:Backstage  Background="Green">
+
+                        <Fluent:BackstageTabControl>
+                            <Fluent:Button Header="Save"
+                                       Icon="Images\Save.png"
+                                          Fluent:KeyTip.Keys="S" Click="Button_Click_8"
+                                      />
+                            <Fluent:Button   Header="Save As"
+                                       Icon="Images\Save.png"
+                                       Fluent:KeyTip.Keys="A"  Click="Button_Click_7"/>
+                            <Fluent:BackstageTabItem Header="TEST"
+                                                 Content="Hello">
+
+                                <Fluent:BackstageTabItem.ContentTemplate>
+
+                                    <DataTemplate>
+
+                                        <Grid>
+                                            <TextBox Text="{Binding Mode=OneWay}" />
+                                        </Grid>
+                                    </DataTemplate>
+
+                                </Fluent:BackstageTabItem.ContentTemplate>
+
+                            </Fluent:BackstageTabItem>
+
+                            <Fluent:SeparatorTabItem Header="Separator" />
+
+                            <Fluent:BackstageTabItem Header="Info"
+                                                 Fluent:KeyTip.Keys="E"
+                                                 IsEnabled="False">
+                                <ScrollViewer Style="{x:Null}">
+                                    <Grid Height="400" 
+                                      Background="Red">
+                                        <ListBox Width="100"
+                                             Height="100"
+                                             VerticalAlignment="Top"
+                                             HorizontalAlignment="Left">
+                                            <ListBoxItem>1</ListBoxItem>
+                                            <ListBoxItem>2</ListBoxItem>
+                                            <ListBoxItem>3</ListBoxItem>
+                                            <ListBoxItem>4</ListBoxItem>
+                                            <ListBoxItem>5</ListBoxItem>
+                                            <ListBoxItem>6</ListBoxItem>
+                                            <ListBoxItem>7</ListBoxItem>
+                                            <ListBoxItem>8</ListBoxItem>
+                                            <ListBoxItem>9</ListBoxItem>
+                                            <ListBoxItem>10</ListBoxItem>
+                                        </ListBox>
+                                        <Fluent:ComboBox SelectedIndex="1">
+                                            <ComboBoxItem>1</ComboBoxItem>
+                                            <ComboBoxItem>2</ComboBoxItem>
+                                            <ComboBoxItem>3</ComboBoxItem>
+                                            <ComboBoxItem>4</ComboBoxItem>
+                                            <ComboBoxItem>5</ComboBoxItem>
+                                        </Fluent:ComboBox>
+                                    </Grid>
+                                </ScrollViewer>
+                            </Fluent:BackstageTabItem>
+
+                            <Fluent:BackstageTabItem Header="Recent"
+                                                 Fluent:KeyTip.Keys="R">
+                                <TabControl Margin="20,5,20,5"
+                                        Style="{DynamicResource InnerBackstageTabControlStyle}">
+                                    <Fluent:SeparatorTabItem Header="Test1" />
+                                    <TabItem Header="1">
+
+                                    </TabItem>
+                                    <TabItem Header="2">
+
+                                    </TabItem>
+                                    <TabItem Header="3">
+
+                                    </TabItem>
+                                    <Fluent:SeparatorTabItem Header="Test2" />
+                                    <TabItem Header="4">
+
+                                    </TabItem>
+                                </TabControl>
+                            </Fluent:BackstageTabItem>
+
+                            <Fluent:SeparatorTabItem />
+                            <Fluent:BackstageTabItem Header="New"
+                                                 Fluent:KeyTip.Keys="N">
+                                <Grid Background="#550000FF"
+                                  Opacity="1"
+                                  Margin="50"
+                                  MinWidth="0"
+                                  Width="Auto"
+                                  HorizontalAlignment="Stretch">
+                                    <TextBlock HorizontalAlignment="Left"
+                                           MinWidth="0"
+                                           TextWrapping="Wrap"
+                                           Foreground="Black">This is long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long text</TextBlock>
+                                    <Fluent:Button IsDefinitive="True"
+                                               IsEnabled="True"
+                                               Style="{DynamicResource ButtonBackstageStyle}"
+                                               HorizontalAlignment="Left"
+                                             
+                                               Icon="Images\Paste.png"
+                                               LargeIcon="Images\PasteLarge.png">123</Fluent:Button>
+                                    <Fluent:DropDownButton Header="123"
+                                                       HorizontalAlignment="Right"
+                                                       Icon="Images\Paste.png"
+                                                       LargeIcon="Images\PasteLarge.png"></Fluent:DropDownButton>
+                                    <Fluent:ComboBox VerticalAlignment="Bottom">
+                                        <TextBlock Text="1" />
+                                        <TextBlock Text="2" />
+                                        <TextBlock Text="3" />
+                                        <TextBlock Text="4" />
+                                        <TextBlock Text="5" />
+                                    </Fluent:ComboBox>
+                                    <Fluent:Spinner Value="1"
+                                                Format="0"
+                                                InputWidth="50"
+                                                Header="Lala"
+                                                HorizontalAlignment="Right"
+                                                VerticalAlignment="Bottom"
+                                              ></Fluent:Spinner>
+                                </Grid>
+                            </Fluent:BackstageTabItem>
+                            <Fluent:BackstageTabItem Header="Print"
+                                                 Fluent:KeyTip.Keys="P">
+                                <Grid Background="Yellow"
+                                  Opacity="0.3"
+                                  Margin="50" />
+                            </Fluent:BackstageTabItem>
+                            <Fluent:Button Header="Exit"
+                                       Icon="Images\Exit.png"
+                                       Fluent:KeyTip.Keys="X"
+                                       Command="ApplicationCommands.Close" />
+                        </Fluent:BackstageTabControl>
+                    </Fluent:Backstage>
+                </Fluent:Ribbon.Menu>
+
+                <Fluent:Ribbon.ToolBarItems>
+                    <Fluent:Button Size="Small"
+                               Icon="Images/Help.png"
+                              >
+                        <Fluent:Button.ToolTip>
+                            <Fluent:ScreenTip Title="Insert Chart"
+                                          Text="Insert a chart to illustarate and compare data. &#xa;&#xa;Bar, Pie, Line, Area and Surface are same of the available types."
+                                          Image="Images\SampleImageForScreenTip.png"
+                                          HelpTopic="http:\\fluent.codeplex.com"
+                                          DisableReason="Disable reason reason."
+                                          Width="190"
+                                          IsRibbonAligned="True" />
+                        </Fluent:Button.ToolTip>
+                    </Fluent:Button>
+                </Fluent:Ribbon.ToolBarItems>
+
+                <Fluent:Ribbon.QuickAccessItems>
+                    <Fluent:QuickAccessMenuItem Target="{Binding ElementName=pasteButton}"
+                                            IsChecked="True" />
+                    <Fluent:QuickAccessMenuItem Target="{Binding ElementName=cutButton}"
+                                            IsChecked="True" />
+                    <Fluent:QuickAccessMenuItem Target="{Binding ElementName=copyButton}" />
+                </Fluent:Ribbon.QuickAccessItems>
+
+                <Fluent:RibbonTabItem  Header="{StaticResource FF00005D}" x:Name="tabItem1"
+                                    Fluent:KeyTip.Keys="H"
+                                    ToolTip="Regular Tool Tip"
+                                    ReduceOrder="Font, Font, Font, Font,B,A,A,A,(A),(A),(A),Clipboard,Font,B,B,(A),C,(A),(A)">
+                    <Fluent:RibbonGroupBox Icon="Image/IconLock.png"
+                                       Fluent:KeyTip.Keys="C"
+                                       x:Name="Clipboard"
+                                       Header="Clipboard"
+                                       IsLauncherVisible="True"
+                                      
+                                       LauncherKeys="ZB">
+                        <Button  Style="{StaticResource buttonStyle}"        Name="btnCreate"  Click="btnCreate_Click" Width="60" Height="60" HorizontalContentAlignment="Center">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Add_Normal.png" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000004}"/>
+                                </Grid>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{StaticResource ResourceKey=FF000004}"/>
+                                    <TextBlock Grid.Column="1" Text="Ctrl+N"/>
+                                </Grid>
+                            </Button.ToolTip>
+                        </Button>
+
+                        <Button Style="{StaticResource buttonStyle}"  Name="btnLoad" Click="btnLoad_Click" Width="60" Height="60" HorizontalContentAlignment="Center">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Open_Normal.png" />
+                                    <TextBlock Grid.Row="1" HorizontalAlignment="Center" Text="{StaticResource ResourceKey=FF000003}"/>
+                                </Grid>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock   Grid.Column="0"  Text="{StaticResource ResourceKey=FF000003}"/>
+                                    <TextBlock Grid.Column="1" Text="Ctrl+L"/>
+                                </Grid>
+                            </Button.ToolTip>
+                        </Button>
+                        <Button Style="{StaticResource buttonStyle}"  Name="btnClone" Click="btnClone_Click"  Width="60" Height="60" HorizontalContentAlignment="Center">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Open_Normal.png" />
+                                    <TextBlock Grid.Row="1" HorizontalAlignment="Center" Text="{StaticResource ResourceKey=FF00008B}"/>
+                                </Grid>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{StaticResource ResourceKey=FF000003}"/>
+                                    <TextBlock Grid.Column="1" Text="Ctrl+L"/>
+                                </Grid>
+                            </Button.ToolTip>
+                        </Button>
+                        <Button   Style="{StaticResource buttonStyle}"  Name="btnPageAdd" Width="60" Height="60" HorizontalContentAlignment="Center" Click="btnPageAdd_Click">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Page_Add.png" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF00004E}"/>
+                                </Grid>
+                            </Button.Content>
+                            <Button.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Tag="Main" Click="MenuItem_Click" Header="{StaticResource FF000062}"/>
+                                    <MenuItem Tag="Sub" Click="MenuItem_Click" Header="{StaticResource FF000063}"/>
+                                
+                                </ContextMenu>
+                            </Button.ContextMenu>
+                        </Button>
+
+                        <Button  Style="{StaticResource buttonStyle}" Name="btnPageDel" Width="60" Height="60" HorizontalContentAlignment="Center" Click="btnPageDel_Click">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Page_Del.png" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF00004F}"/>
+                                </Grid>
+                            </Button.Content>
+                        </Button>
+
+                        <Button Style="{StaticResource buttonStyle}" Name="btnCut" Width="60" Height="60" HorizontalContentAlignment="Center" Click="btnCut_Click">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Cut_Normal.png" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000050}"/>
+                                </Grid>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{StaticResource ResourceKey=FF000050}"/>
+                                    <TextBlock Grid.Column="1" Text="Ctrl+X"/>
+                                </Grid>
+                            </Button.ToolTip>
+                        </Button>
+
+                        <Button Style="{StaticResource buttonStyle}" Name="btnCopy" Width="60" Height="60" HorizontalContentAlignment="Center" Click="btnCopy_Click">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Copy_Normal.png" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000051}"/>
+                                </Grid>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{StaticResource ResourceKey=FF000051}"/>
+                                    <TextBlock Grid.Column="1" Text="Ctrl+C"/>
+                                </Grid>
+                            </Button.ToolTip>
+                        </Button>
+
+                        <Button Style="{StaticResource buttonStyle}" Name="btnPaste" Width="60" Height="60" HorizontalContentAlignment="Center" Click="btnPaste_Click">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Paste_Normal.png" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000052}"/>
+                                </Grid>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{StaticResource ResourceKey=FF000052}"/>
+                                    <TextBlock Grid.Column="1" Text="Ctrl+V"/>
+                                </Grid>
+                            </Button.ToolTip>
+                        </Button>
+
+                        <Button Style="{StaticResource buttonStyle}" Name="Preview" Click="Preview_Click" Width="60" Height="60" HorizontalContentAlignment="Center">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Add_Preview.png" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000005}"/>
+                                </Grid>
+                            </Button.Content>
+                        </Button>
+
+                        <Button Style="{StaticResource buttonStyle}" Name="btnPublish" Width="60" Height="60" 
+                            HorizontalContentAlignment="Center" Click="btnPublish_Click">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Release_Normal.png" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000053}"/>
+                                </Grid>
+                            </Button.Content>
+                        </Button>
+
+                        <Button Style="{StaticResource buttonStyle}" Name="btnUndo" 
+                            Click="btnUndo_Click" 
+                            Width="60" 
+                            Height="60"
+                            HorizontalContentAlignment="Center">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Undo_Normal.PNG" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000000}"/>
+                                </Grid>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{StaticResource ResourceKey=FF000000}"/>
+                                    <TextBlock Grid.Column="1" Text="Ctrl+Z"/>
+                                </Grid>
+                            </Button.ToolTip>
+                        </Button>
+
+                        <Button Style="{StaticResource buttonStyle}" Name="btnRedo"
+                            Click="btnRedo_Click"
+                            Width="60"
+                            Height="60" 
+                            HorizontalContentAlignment="Center">
+                            <Button.Content>
+                                <Grid HorizontalAlignment="Center">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Redo_Normal.png" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000001}"/>
+                                </Grid>
+                            </Button.Content>
+                            <Button.ToolTip>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{StaticResource ResourceKey=FF000001}"/>
+                                    <TextBlock Grid.Column="1" Text="Ctrl+Y"/>
+                                </Grid>
+                            </Button.ToolTip>
+                        </Button>
+
+                        <ToggleButton   Name="toggleButton1" 
+                                      Style="{StaticResource ToggleButtonStyle2}" 
+                                      Width="60" Height="60" HorizontalContentAlignment="Center">
+
+                            <Grid HorizontalAlignment="Center">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Image  Grid.Row="0" Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Graph_Normal.png" />
+                                <TextBlock  HorizontalAlignment="Center" VerticalAlignment="Center" 
+                                               Grid.Row="1" Text="{StaticResource ResourceKey=FF00006B}"/>
+                            </Grid>
+
+                        </ToggleButton>
+                        <Popup IsOpen="{Binding IsChecked,ElementName=toggleButton1}" PlacementTarget="{Binding ElementName=toggleButton1}" 
+                       Name="popup1" StaysOpen="False"
+                       Placement="Bottom" 
+                       Height="100" Width="160" >
+                            <ScrollViewer Style="{x:Null}">
+                                <WrapPanel Background="White">
+                                    <Button Tag="Left" Click="AlignButton_Click" Style="{StaticResource buttonStyle}">
+                                        <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Align_Left.png" />
+                                    </Button>
+                                    <Button Tag="Top" Click="AlignButton_Click" Style="{StaticResource buttonStyle}">
+                                        <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Align_Top.png" />
+                                    </Button>
+                                    <Button Tag="Right" Click="AlignButton_Click" Style="{StaticResource buttonStyle}">
+                                        <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Align_Right.png" />
+                                    </Button>
+                                    <Button Tag="Bottom" Click="AlignButton_Click" Style="{StaticResource buttonStyle}">
+                                        <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Align_Bottom.png" />
+                                    </Button>
+                                </WrapPanel>
+                            </ScrollViewer>
+                        </Popup>
+                    </Fluent:RibbonGroupBox>
+                </Fluent:RibbonTabItem>
+                <Fluent:RibbonTabItem  Header="{StaticResource FF00005E}"  IsSelected="True"  Name="tabItem2">
+
+                    <Fluent:RibbonGroupBox  x:Name="ResourcesRibbonGroupBox" Header="Resources"  
+                                            ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                                            IsLauncherVisible="False">
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="Image"   
+                                             Header="{StaticResource ResourceKey=FF000054}"
+                                             Tag="图片"
+                                             Icon="/jg.Editor;component/Image/Top_Picture_Normal.png"
+                                             LargeIcon="/jg.Editor;component/Image/Top_Picture_Normal.png"
+                                             SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="图片"
+                                                  Text="插入图片"
+                                                  Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                            <Fluent:MenuItem Header="本地"   
+                                             Visibility="Collapsed"   
+                                             GroupName="Image"    
+                                             x:Name="localImgMenu"   
+                                             Tag="Local"  
+                                             Fluent:KeyTip.Keys="Image"   
+                                             IsSplited="True"/>
+                         
+                        </Fluent:SplitButton>
+
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="Movie"   
+                                        Header="{StaticResource ResourceKey=FF000055}"    
+                                     
+                                             Tag="Movie"
+                                        Icon="/jg.Editor;component/Image/Top_Video_Normal.png"
+                                        LargeIcon="/jg.Editor;component/Image/Top_Video_Normal.png"
+                                        SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="Image"
+                                              Text="insert a Image."
+                                              Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                            <Fluent:MenuItem Header="本地"  Visibility="Collapsed"  x:Name="localMovieMenu" GroupName="Movie"     Tag="Local" Fluent:KeyTip.Keys="Movie"   IsSplited="True"></Fluent:MenuItem>
+                        </Fluent:SplitButton>
+
+                 
+
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="Sound"   
+                                        Header="{StaticResource ResourceKey=FF000057}"    
+                                     
+                                             Tag="Sound"
+                                        Icon="/jg.Editor;component/Image/Top_Audio_Normal.png"
+                                        LargeIcon="/jg.Editor;component/Image/Top_Audio_Normal.png"
+                                        SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="Sound"
+                                              Text="insert a Sound."
+                                              Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                            <Fluent:MenuItem Header="本地"  Visibility="Collapsed"    GroupName="Sound"  x:Name="localSoundMenu" Tag="Local"  Fluent:KeyTip.Keys="Sound"   IsSplited="True"></Fluent:MenuItem>
+                        </Fluent:SplitButton>
+
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="Document"   
+                                        Header="{StaticResource ResourceKey=FF00006C}"    
+                                       
+                                             Tag="Document"
+                                        Icon="/jg.Editor;component/Image/Top_Document_Normal.png"
+                                        LargeIcon="/jg.Editor;component/Image/Top_Document_Normal.png"
+                                        SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="Document"
+                                              Text="insert a Document."
+                                              Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                            <Fluent:MenuItem Header="本地"  Visibility="Collapsed"    GroupName="Document" x:Name="localDocumentMenu"  Tag="Local"  Fluent:KeyTip.Keys="Document"   IsSplited="True"></Fluent:MenuItem>
+                        </Fluent:SplitButton>
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="TPageGroup"   
+                                        Header="{StaticResource ResourceKey=FF000083}"    
+                                       
+                                             Tag="TPageGroup"
+                                        Icon="/jg.Editor.Library;component/Image/Top_ImgGroup_Normal.png"
+                                        LargeIcon="/jg.Editor.Library;component/Image/Top_ImgGroup_Normal.png"
+                                        SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="TPageGroup"
+                                              Text="insert a TPageGroup."
+                                              Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                            <Fluent:MenuItem Header="本地"  Visibility="Collapsed"    GroupName="TPageGroup"   x:Name="localTPageGroupMenu" Tag="Local"  Fluent:KeyTip.Keys="TPageGroup"   IsSplited="True"></Fluent:MenuItem>
+                        </Fluent:SplitButton>
+                    </Fluent:RibbonGroupBox>
+                    <Fluent:RibbonGroupBox Header="ResourcesExpand"  ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                                       IsLauncherVisible="False">
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="Text"   
+                                        Header="{StaticResource ResourceKey=FF000059}"    
+                                       Click="SplitButton_Click"
+                                             Tag="Text"
+                                        Icon="/jg.Editor;component/Image/Top_Text_Normal.png"
+                                        LargeIcon="/jg.Editor;component/Image/Top_Text_Normal.png"
+                                        SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="Text"
+                                              Text="insert a Text."
+                                              Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                        
+                        </Fluent:SplitButton>
+
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="TopicDrag"   
+                                        Header="{StaticResource ResourceKey=FF00005A}"    
+                                       Click="SplitButton_Click"
+                                             Tag="TopicDrag"
+                                        Icon="/jg.Editor;component/Image/Top_DragandDrop_Normal.png"
+                                        LargeIcon="/jg.Editor;component/Image/Top_DragandDrop_Normal.png"
+                                        SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="TopicDrag"
+                                              Text="insert a TopicDrag."
+                                              Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                        </Fluent:SplitButton>
+
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="Topic"   
+                                        Header="{StaticResource ResourceKey=FF00005B}"    
+                                       Click="SplitButton_Click"
+                                             Tag="Image"
+                                        Icon="/jg.Editor;component/Image/Top_Multiplechoice_Normal.png"
+                                        LargeIcon="/jg.Editor;component/Image/Top_Multiplechoice_Normal.png"
+                                        SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="Topic"
+                                              Text="insert a Topic."
+                                              Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                         
+                        </Fluent:SplitButton>
+
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="TextGrid"   
+                                        Header="{StaticResource ResourceKey=FF00005C}"    
+                                       Click="SplitButton_Click"
+                                             Tag="TextGrid"
+                                        Icon="/jg.Editor;component/Image/Top_Grid_Normal.png"
+                                        LargeIcon="/jg.Editor;component/Image/Top_Grid_Normal.png"
+                                        SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="TextGrid"
+                                              Text="insert a TextGrid."
+                                              Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                        </Fluent:SplitButton>
+
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="HTML5"   
+                                        Header="{StaticResource ResourceKey=FF000081}"    
+                                       Click="SplitButton_Click"
+                                             Tag="HTML5"
+                                        Icon="/jg.Editor;component/Image/Top_Redo_Normal.png"
+                                        LargeIcon="/jg.Editor;component/Image/Top_Redo_Normal.png"
+                                        SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="HTML5"
+                                              Text="insert a HTML5."
+                                              Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                          
+                        </Fluent:SplitButton>
+
+                           
+                    </Fluent:RibbonGroupBox>
+                    <Fluent:RibbonGroupBox Header="Other"  IsLauncherVisible="False">
+
+                        <Fluent:SplitButton  Fluent:KeyTip.Keys="toggleButtonsharp"   
+                                        Header="{StaticResource ResourceKey=FF000065}"    
+                                      
+                                             Tag="TopicDrag"
+                                        Icon="/jg.Editor;component/Image/Top_Graph_Normal.png"
+                                        LargeIcon="/jg.Editor;component/Image/Top_Graph_Normal.png"
+                                        SizeDefinition="Large">
+                            <Fluent:SplitButton.ToolTip>
+                                <Fluent:ScreenTip Title="sharp"
+                                              Text="insert a sharp."
+                                              Width="190"  />
+                            </Fluent:SplitButton.ToolTip>
+                            <WrapPanel Background="White">
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape001" Style="{StaticResource Shape001}"/>
+                                </my2:ToolboxItem>
+
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape002" Style="{StaticResource Shape002}"/>
+                                </my2:ToolboxItem>
+
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape003" Style="{StaticResource Shape003}"/>
+                                </my2:ToolboxItem>
+
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape004" Style="{StaticResource Shape004}"/>
+                                </my2:ToolboxItem>
+
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape005" Style="{StaticResource Shape005}"/>
+                                </my2:ToolboxItem>
+
+                                <!--<my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape006" Style="{StaticResource Shape006}"/>
+                                </my2:ToolboxItem>-->
+
+                                <my2:ToolboxItem AssetType="Message">
+                                    <Path Name="Shape006" Style="{StaticResource Shape006}"/>
+                                </my2:ToolboxItem>
+
+
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape007" Style="{StaticResource Shape007}"/>
+                                </my2:ToolboxItem>
+
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape008" Style="{StaticResource Shape008}"/>
+                                </my2:ToolboxItem>
+
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape009" Style="{StaticResource Shape009}"/>
+                                </my2:ToolboxItem>
+
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape010" Style="{StaticResource Shape010}"/>
+                                </my2:ToolboxItem>
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape011" Style="{StaticResource Shape011}"/>
+                                </my2:ToolboxItem>
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape012" Style="{StaticResource Shape012}"/>
+                                </my2:ToolboxItem>
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape013" Style="{StaticResource Shape013}"/>
+                                </my2:ToolboxItem>
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape014" Style="{StaticResource Shape014}"/>
+                                </my2:ToolboxItem>
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape015" Style="{StaticResource Shape015}"/>
+                                </my2:ToolboxItem>
+                                <my2:ToolboxItem AssetType="Shape">
+                                    <Path Name="Shape016" Style="{StaticResource Shape016}"/>
+                                </my2:ToolboxItem>
+                                <my2:ToolboxItem AssetType="Line">
+                                    <Path Name="Shape017" Style="{StaticResource Shape017}"/>
+                                </my2:ToolboxItem>
+                            </WrapPanel>
+                        </Fluent:SplitButton>
+
+                   
+                    </Fluent:RibbonGroupBox>
+                    
+                </Fluent:RibbonTabItem>
+                <Fluent:RibbonTabItem Header="MUST BE HIDDEN"
+                                  Group="{Binding ElementName=invisibleTabGroup, Mode=OneWay}"
+                                  Visibility="Collapsed">
+                    <Fluent:RibbonGroupBox Header="MUST BE HIDDEN"
+                                       IsLauncherVisible="False"
+                                       Visibility="Collapsed">
+                    </Fluent:RibbonGroupBox>
+                </Fluent:RibbonTabItem>
+            </Fluent:Ribbon>
+        </Border>
+        <Button HorizontalAlignment="Right" Grid.Column="4" Visibility="Collapsed"
+                Width="60"
+                Click="Button_Click_6" 
+                Content="意见提交"/>
+        <TreeView Grid.Row="1" Grid.Column="0" Grid.RowSpan="4" Background="#FFF0F0F0" 
+                      SelectedItemChanged="treeViewControl1_SelectedItemChanged"
+                      BorderBrush="#FF7C7C7C"  AllowDrop="True" Drop="PubDropTreeAndBlockEvent"
+                      BorderThickness="1,0,1,1"
+                      x:Name="treeViewControl1"/>
+        <ScrollViewer Name="scrollViewer" 
+                      Grid.Column="2"
+                      Grid.Row="1" Style="{x:Null}"
+                      HorizontalScrollBarVisibility="Visible" 
+                      VerticalScrollBarVisibility="Visible">
+            <Border BorderBrush="#FF7C7C7C" BorderThickness="0,0,1,1">
+                <Grid Name="grid" Background="#FF747474">
+                    <Grid.LayoutTransform>
+                        <TransformGroup>
+                            <ScaleTransform x:Name="scaleTransform"/>
+                        </TransformGroup>
+                    </Grid.LayoutTransform>
+
+                </Grid>
+            </Border>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="4" Grid.RowSpan="3" Grid.Row="1"  Style="{x:Null}">
+            <Border  BorderBrush="#FF7C7C7C"    BorderThickness="1">
+                <my1:PropertyManage Name="propertyManage1"/>
+            </Border>
+        </ScrollViewer>
+        <GridSplitter Background="#FFCBCBCB" Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" ResizeDirection="Columns" HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="5"/>
+        <Button Visibility="Hidden" Tag="col1"
+                Grid.Column="1"
+                Grid.Row="1" 
+                Height="20" 
+                VerticalAlignment="Top"
+                Grid.ColumnSpan="2" 
+                Width="20" 
+                HorizontalAlignment="Left" 
+                Content="←"
+                Click="Button_Click_5"/>
+        <GridSplitter Grid.Column="3" Grid.Row="1" Grid.RowSpan="3"
+                      Background="#FFCBCBCB"
+                      ResizeDirection="Columns" HorizontalAlignment="Center"
+                      VerticalAlignment="Stretch" Width="5"/>
+        <Button Visibility="Hidden" Tag="col5" Grid.Column="2" Margin="0,0,23,0"
+                Grid.Row="1"
+                Height="20" 
+                VerticalAlignment="Top" 
+                Grid.ColumnSpan="2" 
+                Width="20" 
+                HorizontalAlignment="Right" 
+                Content="→" 
+                Click="Button_Click_5"/>
+
+
+        <GridSplitter Grid.Row="2" 
+                      Grid.Column="2" 
+                      Background="#FFCBCBCB"
+                      Grid.ColumnSpan="1"
+                      Height="10"
+                      ResizeDirection="Rows"
+                      HorizontalAlignment="Stretch" 
+                      VerticalAlignment="Center"/>
+        <Button Visibility="Hidden" Tag="row4" Grid.Column="2" Margin="0,0,18,23"
+                Grid.Row="1"
+                Height="20" 
+                VerticalAlignment="Bottom" Grid.RowSpan="2" Width="20" HorizontalAlignment="Right" Content="↓" Click="Button_Click_5"/>
+
+        <Grid Grid.Column="2" Grid.Row="3" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Width="60" Margin="0,0,0,0" HorizontalAlignment="Left" Click="Button_Click">播放</Button>
+            <Button Width="60" Margin="70,0,0,0" HorizontalAlignment="Left" Click="Button_Click_1">暂停</Button>
+            <Button Width="60" Margin="140,0,0,0" HorizontalAlignment="Left" Click="Button_Click_2">停止</Button>
+            <Button Width="60" Margin="210,0,0,0" HorizontalAlignment="Left" Click="Button_Click_3">添加帧</Button>
+            <Button Width="60" Margin="280,0,0,0" HorizontalAlignment="Left" Click="Button_Click_4">删除帧</Button>
+            <my2:ControlTimeLine Grid.Row="1" Grid.Column="1" x:Name="controlTimeLine"/>
+        </Grid>
+        <!--<my2:ZoomBox Grid.Column="2" HorizontalAlignment="Right" Grid.Row="1"
+                     VerticalAlignment="Top"
+                     ScrollViewer="{Binding ElementName=scrollViewer}"
+                     Margin="0,0,23,0"
+                     Grid.ColumnSpan="2"/>-->
+
+        <Fluent:StatusBar HorizontalAlignment="Stretch"
+                          VerticalAlignment="Bottom"
+                          Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="6">
+            <Fluent:StatusBarItem Title="Words Width"
+                                  Value="150"
+                                  HorizontalAlignment="Left">
+                <TextBlock Text="150 px" />
+            </Fluent:StatusBarItem>
+            <Separator HorizontalAlignment="Left" />
+            <Fluent:StatusBarItem Title="Selected Words"
+                                  Value="15"
+                                  ToolTip="This is Selected Words"
+                                  Content="15"
+                                  HorizontalAlignment="Left" />
+            <Separator HorizontalAlignment="Left" />
+            <Fluent:StatusBarItem Title="Zoom"
+                                  HorizontalAlignment="Right"
+                                  Value="{Binding Value, ElementName=zoomSlider, StringFormat={}{0:0}\%}" />
+            <Fluent:StatusBarItem Title="Zoom Slider"
+                                  HorizontalAlignment="Right">
+                <Slider x:Name="zoomSlider"  
+                        Minimum="1" 
+                      
+                        Maximum="400"
+                        IsDirectionReversed="False"
+                        Style="{DynamicResource ZoomSliderStyle}"
+                        Value="100"  />
+            </Fluent:StatusBarItem>
+        </Fluent:StatusBar>
+     
+        <Grid x:Name="ShowNewWin"   Grid.Column="0" Grid.Row="1"  Visibility="Collapsed"
+                         
+                          Grid.RowSpan="5" Grid.ColumnSpan="5"  >
+            
+            <Grid  Opacity="0.2" Background="#FF312F2F"  ></Grid>
+            <my:ProgressEditBusy     BusyColor="Black"   FirstLine="正在加载" TwoLine="请您耐心等待"  x:Name="ProgressEditBusyName" Width="300" Height="300" />
+        </Grid>
+
+    </Grid>
+
+</Fluent:RibbonWindow>
+
+
+
+
+

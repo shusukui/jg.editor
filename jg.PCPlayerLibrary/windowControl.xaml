@@ -1,0 +1,22 @@
+﻿<Window x:Class="jg.PCPlayerLibrary.windowControl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:jg.Editor.Library.Control;assembly=jg.Editor.Library"
+        Title="windowControl" Background="{x:Null}" WindowStyle="None" AllowsTransparency="True" Height="65" Width="1024" ShowInTaskbar="False">
+    <my:ControlPlay x:Name="controlPlay" 
+                    VerticalAlignment="Bottom"
+                    MouseEnter="controlPlay_MouseEnter"
+                    MouseLeave="controlPlay_MouseLeave"
+                    ShrinkChanged="controlPlay_ShrinkChanged"
+                    MenuVisibleChanged="controlPlay_MenuVisibleChanged"
+                    VolumeChanged="controlPlay_VolumeChanged"
+                    ValueChanged="controlPlay_ValueChanged"
+                    PlayStop="controlPlay_PlayStop"
+                    Previous="controlPlay_Previous"
+                    Next="controlPlay_Next"
+                    PlayPause="controlPlay_PlayPause"
+                    Maximum="100"
+                    Minimum="0"
+                    Value="0" 
+                    />
+</Window>

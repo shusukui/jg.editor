@@ -1,0 +1,100 @@
+﻿<UserControl x:Class="jg.Editor.Library.Control.ControlTextEditor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+               xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    mc:Ignorable="d" 
+             Background="Transparent"
+             d:DesignHeight="300" d:DesignWidth="828" xmlns:my="clr-namespace:jg.Editor.Library.Property" Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="{x:Type Button}" x:Key="formatTextStyle">
+                <Setter Property="FontFamily" Value="Palatino Linotype"></Setter>
+                <Setter Property="Width" Value="30"></Setter>
+                <Setter Property="FontSize" Value ="14"></Setter>
+                <Setter Property="CommandTarget" Value="{Binding ElementName=mainRTB}"></Setter>
+            </Style>
+
+            <Style TargetType="{x:Type Button}" x:Key="formatImageStyle">
+                <Setter Property="Width" Value="30"></Setter>
+                <Setter Property="CommandTarget" Value="{Binding ElementName=mainRTB}"></Setter>
+            </Style>
+            
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <DockPanel Name="mainPanel" Grid.Row="0">
+            <ToolBar  Name="mainToolBar" Height="30" DockPanel.Dock="Bottom">
+                <Button Style="{StaticResource formatImageStyle}" 
+                        Command="ApplicationCommands.Cut" 
+                        ToolTip="Cut">剪切</Button>
+                <Button Style="{StaticResource formatImageStyle}" 
+                        Command="ApplicationCommands.Copy"
+                        ToolTip="Copy">复制</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="ApplicationCommands.Paste"
+                        ToolTip="Paste">粘贴</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="ApplicationCommands.Undo" 
+                        ToolTip="Undo">撤销</Button>
+                <Button Style="{StaticResource formatImageStyle}" 
+                        Command="ApplicationCommands.Redo"
+                        ToolTip="Redo">回复</Button>
+                <Button Style="{StaticResource formatTextStyle}"
+                        Command="EditingCommands.ToggleBold"
+                        ToolTip="Bold"><TextBlock FontWeight="Bold">B</TextBlock></Button>
+                <Button Style="{StaticResource formatTextStyle}" 
+                        Command="EditingCommands.ToggleItalic" 
+                        ToolTip="Italic"><TextBlock FontStyle="Italic" FontWeight="Bold">I</TextBlock></Button>
+                <Button Style="{StaticResource formatTextStyle}"
+                        Command="EditingCommands.ToggleUnderline"
+                        ToolTip="Underline"><TextBlock TextDecorations="Underline" FontWeight="Bold">U</TextBlock></Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="EditingCommands.IncreaseFontSize" 
+                        ToolTip="Grow Font">放大</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="EditingCommands.DecreaseFontSize"
+                        ToolTip="Shrink Font">缩小</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="EditingCommands.ToggleBullets" 
+                        ToolTip="Bullets">段1</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="EditingCommands.ToggleNumbering" 
+                        ToolTip="Numbering">段2</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="EditingCommands.AlignLeft"
+                        ToolTip="Align Left">左对齐</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="EditingCommands.AlignCenter"
+                        ToolTip="Align Center">居中</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="EditingCommands.AlignRight"
+                        ToolTip="Align Right">右对齐</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="EditingCommands.AlignJustify"
+                        ToolTip="Align Justify">左右对齐</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="EditingCommands.IncreaseIndentation"
+                        ToolTip="Increase Indent">缩进</Button>
+                <Button Style="{StaticResource formatImageStyle}"
+                        Command="EditingCommands.DecreaseIndentation"
+                        ToolTip="Decrease Indent">回退</Button>
+                <ComboBox Name="cmbFontList" Width="80"></ComboBox>
+                <!--<ColorPicker SelectedColorChanged="ColorPicker_SelectedColorChanged" xmlns="clr-namespace:Xceed.Wpf.Toolkit;assembly=WPFToolkit.Extended"/>-->               
+            </ToolBar>
+
+            <Border BorderBrush="Black" BorderThickness="1">
+            <RichTextBox Name="mainRTB" AcceptsTab="True"  FontSize="18"
+                         Background="{Binding Background}"
+                         BorderBrush="{Binding Background}" 
+          
+                         SelectionChanged="mainRTB_SelectionChanged">
+
+                </RichTextBox>
+            </Border>
+        </DockPanel>
+    </Grid>
+</UserControl>

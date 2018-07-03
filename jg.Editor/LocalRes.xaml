@@ -1,0 +1,37 @@
+﻿<Window x:Class="jg.Editor.LocalRes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="导入资源" Height="180" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+     
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+            <Label Content="源文件:" VerticalAlignment="Center"  Margin="12,0,0,0"></Label>
+            <Border Width="275" Height="28" BorderBrush="Black" BorderThickness="1">
+                <TextBox x:Name="txtHtmlFile"  Width="275" Height="28"></TextBox>
+
+            </Border>
+            <Button Margin="10,0,0,0"  Width="60" Height="28" x:Name="BtnFileDiaLog" Click="BtnFileDiaLog_Click">浏览</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Label Content="源缩略图:" VerticalAlignment="Center"></Label>
+            <Border Width="275" Height="28" BorderBrush="Black" BorderThickness="1">
+                <TextBox  x:Name="txtHtmlImg" Width="275" Height="28"></TextBox>
+
+            </Border>
+            <Button Margin="10,0,0,0"  Width="60" Height="28"  x:Name="BtnImgDiaLog" Click="BtnImgDiaLog_Click">浏览</Button>
+        </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2">
+
+            <Button Margin="0,0,10,0"  x:Name="btnOk"  Width="60" Height="28" Click="btnOk_Click">确定</Button>
+            <Button Margin="10,0,0,0"   Width="60" Height="28" Click="Button_Click">取消</Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\obj\Debug 1.8\Skybound.Gecko.csprojResolveAssemblyReference.cache
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\obj\Debug 1.8\Skybound.Gecko.ChromeDialog.resources
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\obj\Debug 1.8\Skybound.Gecko.ConfirmDialog.resources
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\obj\Debug 1.8\Skybound.Gecko.PasswordDialog.resources
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\obj\Debug 1.8\Skybound.Gecko.PromptDialog.resources
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\obj\Debug 1.8\Skybound.Gecko.PropertiesDialog.resources
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\obj\Debug 1.8\Skybound.Gecko.csproj.GenerateResource.Cache
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\bin\Debug 1.8\Skybound.Gecko.xml
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\bin\Debug 1.8\Skybound.Gecko.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\bin\Debug 1.8\Skybound.Gecko.pdb
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\obj\Debug 1.8\Skybound.Gecko.dll
+C:\Users\lihongwei.RUGU\Desktop\新建文件夹\src\Skybound.Gecko\obj\Debug 1.8\Skybound.Gecko.pdb

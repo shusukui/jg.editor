@@ -1,0 +1,231 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:jg.Editor.Library;assembly=jg.Editor.Library" 
+                    xmlns:my3="clr-namespace:jg.Editor.Library.Topic;assembly=jg.Editor.Library" 
+                    >
+    <!--<ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Shape.xaml"/>
+    </ResourceDictionary.MergedDictionaries>-->
+
+    <s:Toolbox x:Key="ToolBoxAsset" DefaultItemSize="60,60"  >
+        <ItemsControl.Items>
+
+            <s:ToolboxItem AssetType="Image">
+                <Button Style="{DynamicResource buttonStyle}"   Width="60" Height="60"  HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Picture_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center"  VerticalAlignment="Center"  Grid.Row="1" Text="{StaticResource ResourceKey=FF000054}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+            </s:ToolboxItem>
+
+            <s:ToolboxItem AssetType="Movie">
+                <Button Style="{DynamicResource buttonStyle}"  Width="60" Height="60" HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Video_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000055}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+
+            </s:ToolboxItem>
+
+            <s:ToolboxItem AssetType="Animation">
+                <Button Style="{DynamicResource buttonStyle}"  Width="60" Height="60" HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Animation_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000056}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+                <!--<TextBlock>动画</TextBlock>-->
+            </s:ToolboxItem>
+
+            <s:ToolboxItem AssetType="Sound">
+                <Button Style="{DynamicResource buttonStyle}"  Width="60" Height="60" HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Audio_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000057}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+                <!--<TextBlock>音频</TextBlock>-->
+            </s:ToolboxItem>
+
+            <s:ToolboxItem AssetType="Model3D">
+                <Button Style="{DynamicResource buttonStyle}"   Width="60" Height="60" HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_3DModel_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000058}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+                <!--<TextBlock>3D模型</TextBlock>-->
+            </s:ToolboxItem>
+
+            <s:ToolboxItem AssetType="Text">
+                <Button Style="{DynamicResource buttonStyle}"   Width="60" Height="60" HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Text_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000059}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+                <!--<TextBlock>文本</TextBlock>-->
+            </s:ToolboxItem>
+
+            <s:ToolboxItem AssetType="TopicDrag">
+                <Button Style="{DynamicResource buttonStyle}"  Width="60" Height="60" HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_DragandDrop_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF00005A}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+
+                <!--<TextBlock>连线题</TextBlock>-->
+            </s:ToolboxItem>
+
+            <s:ToolboxItem AssetType="Topic">
+                <Button Style="{DynamicResource buttonStyle}"   Width="60" Height="60" HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Multiplechoice_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center"   VerticalAlignment="Center"   Grid.Row="1" Text="{StaticResource ResourceKey=FF00005B}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+                <!--<TextBlock>选择题</TextBlock>-->
+            </s:ToolboxItem>
+
+            <s:ToolboxItem AssetType="TextGrid">
+                <Button Style="{DynamicResource buttonStyle}"   Width="60" Height="60" HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Grid_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF00005C}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+                <!--<TextBlock>文本表格</TextBlock>-->
+            </s:ToolboxItem>
+
+            <s:ToolboxItem  AssetType="HTML5">
+                <Button Style="{DynamicResource buttonStyle}" Name="btnHtml"
+                          
+                               
+                            Width="60"
+                            Height="60" 
+                            HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Redo_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000081}"/>
+                        </Grid>
+                    </Button.Content>
+                    <Button.ToolTip>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="{StaticResource ResourceKey=FF000001}"/>
+                            <TextBlock Grid.Column="1" Text="Ctrl+Y"/>
+                        </Grid>
+                    </Button.ToolTip>
+                </Button>
+            </s:ToolboxItem>
+            <s:ToolboxItem AssetType="Document">
+                <Button Style="{DynamicResource buttonStyle}"  Width="60" Height="60" HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Document_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF00006C}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+                <!--<TextBlock>文本表格</TextBlock>-->
+            </s:ToolboxItem>
+
+            <s:ToolboxItem  AssetType="TPageGroup" >
+                <Button Style="{DynamicResource buttonStyle}"  Width="60" Height="60" HorizontalContentAlignment="Center">
+                    <Button.Content>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Height="32" Width="32" Source = "/jg.Editor.Library;component/Image/Top_ImgGroup_Normal.png" />
+                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000083}"/>
+                        </Grid>
+                    </Button.Content>
+                </Button>
+                
+                <!--<TextBlock>文本表格</TextBlock>-->
+            </s:ToolboxItem>
+            <!--<s:ToolboxItem AssetType="Shape">
+                <Grid HorizontalAlignment="Center" Width="60" Height="60">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Image Height="32" Width="32" Source = "/jg.Editor;component/Image/Top_Graph_Normal.png" />
+                    <TextBlock HorizontalAlignment="Center" Grid.Row="1" Text="{StaticResource ResourceKey=FF000065}"/>
+                </Grid>
+            </s:ToolboxItem>-->
+
+        </ItemsControl.Items>
+    </s:Toolbox>
+</ResourceDictionary>

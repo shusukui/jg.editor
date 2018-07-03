@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F6247322-F219-4BEB-B495-C0B294C027E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jg.PCPlayerLibrary</RootNamespace>
+    <AssemblyName>jg.PCPlayerLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entrance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Globals.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageStage.xaml.cs">
+      <DependentUpon>PageStage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="windowAssetShow.xaml.cs">
+      <DependentUpon>windowAssetShow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="windowClose.xaml.cs">
+      <DependentUpon>windowClose.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="windowControl.xaml.cs">
+      <DependentUpon>windowControl.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WindowPreview.xaml.cs">
+      <DependentUpon>WindowPreview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="windowProcess.xaml.cs">
+      <DependentUpon>windowProcess.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="windowTree.xaml.cs">
+      <DependentUpon>windowTree.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fluent\Fluent dotNET 4.0.csproj">
+      <Project>{4C92FCF4-3561-499F-BC5B-F2F089863047}</Project>
+      <Name>Fluent dotNET 4.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\jg.Editor.Library\jg.Editor.Library.csproj">
+      <Project>{5A1F88DA-EF12-47F2-BE91-9E9E2198F081}</Project>
+      <Name>jg.Editor.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Skybound.Gecko\Skybound.Gecko.csproj">
+      <Project>{877d1a24-2d5e-4c46-a933-fcf11ea0403b}</Project>
+      <Name>Skybound.Gecko</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxUnityWebPlayerAXLib">
+      <Guid>{75A564FE-95D1-41A9-B1D9-10D1E3CB502B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="UnityWebPlayerAXLib">
+      <Guid>{75A564FE-95D1-41A9-B1D9-10D1E3CB502B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <CodeAnalysisDictionary Include="Resources\Brushes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\CboCommonStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\DesignerItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\Expander.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\ResizeChrome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\ScrollBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\ScrollViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\Slider.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\StatusBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\TextBoxStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\ToolBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\Toolbox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\Tooltip.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\TreeViewItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Resources\ZoomBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Stencils\BasicShapes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Stencils\FlowChartSymbols.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Stencils\RegelungstechnikSymbole.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Stencils\Shape.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Stencils\SymbolStencils.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <CodeAnalysisDictionary Include="Stencils\ToolBoxAsset.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </CodeAnalysisDictionary>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageStage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Document.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="windowAssetShow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="windowClose.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="windowControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowPreview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="windowProcess.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="windowTree.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Align_Bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Align_Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Align_Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Align_Top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconLock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconVisible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Login_Title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_3DModel_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Add_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Add_Preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Animation_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Audio_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Copy_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Cut_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Document_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_DragandDrop_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Graph_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Grid_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Multiplechoice_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Open_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Page_Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Page_Del.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Paste_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Picture_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Redo_Normal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Release_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Save_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Text_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Undo_Normal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_Video_Normal.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

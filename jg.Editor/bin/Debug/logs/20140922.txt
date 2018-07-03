@@ -1,0 +1,23 @@
+记录时间：2014-09-22 15:53:58,122 线程ID:[7] 日志级别：INFO  所属类：jg.Editor.WinProBusy property:[(null)] - 描述：User:shushukui Login
+记录时间：2014-09-22 15:53:59,601 线程ID:[7] 日志级别：ERROR 所属类：jg.Editor.WinProBusy property:[(null)] - 描述：无法连接到 net.tcp://10.10.20.240:7001/Service。连接尝试持续了 00:00:01.0066716 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 10.10.20.240:7001。
+	
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 jg.Editor.MINIService.IMiniEditor.Login(String& message, String User_LogName, String User_PassWord)
+   在 jg.Editor.MINIService.MiniEditorClient.Login(String& message, String User_LogName, String User_PassWord) 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\Service References\MINIService\Reference.cs:行号 8328
+   在 jg.Editor.WinProBusy.<Window_Loaded>b__3() 位置 e:\10_10_20_240_MINI2\编辑器\jg.Editor\jg.Editor\WinProBusy.xaml.cs:行号 68

@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A1F88DA-EF12-47F2-BE91-9E9E2198F081}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jg.Editor.Library</RootNamespace>
+    <AssemblyName>jg.Editor.Library</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="elysium, Version=1.5.873.0, Culture=neutral, PublicKeyToken=afa220db249e5b15, processorArchitecture=MSIL" />
+    <Reference Include="Elysium.Notifications, Version=1.5.41.0, Culture=neutral, PublicKeyToken=afa220db249e5b15, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\jg.Editor\bin\Debug\Elysium.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.Prism, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="Samples.Infrastructure, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Samples.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WPFToolkit.Extended">
+      <HintPath>..\bin\Debug\WPFToolkit.Extended.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="abstractContent.cs" />
+    <Compile Include="AssetActionInfo.cs" />
+    <Compile Include="AssetEnum.cs" />
+    <Compile Include="AssetPropertyList.cs" />
+    <Compile Include="ContentGrid.cs" />
+    <Compile Include="ContentGridItem.cs" />
+    <Compile Include="ContentLine.cs" />
+    <Compile Include="ContentMessage.cs" />
+    <Compile Include="ContentShape.cs" />
+    <Compile Include="ContentText.cs" />
+    <Compile Include="ContentTopicDrag.cs" />
+    <Compile Include="Control\ComboTree\ComboBoxTreeView.cs" />
+    <Compile Include="Control\ComboTree\ExtendedTreeView.cs" />
+    <Compile Include="Control\ComboTree\ITreeViewItemModel.cs" />
+    <Compile Include="Control\ComboTree\TreeModel.cs" />
+    <Compile Include="Control\ControlLine.xaml.cs">
+      <DependentUpon>ControlLine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ControlMessage.xaml.cs">
+      <DependentUpon>ControlMessage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ControlSound.xaml.cs">
+      <DependentUpon>ControlSound.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ControlMediaElement.xaml.cs">
+      <DependentUpon>ControlMediaElement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\PageBar.xaml.cs">
+      <DependentUpon>PageBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ProgressEditBusy.xaml.cs">
+      <DependentUpon>ProgressEditBusy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ShareClass.cs" />
+    <Compile Include="Control\ShowMaxBox.xaml.cs">
+      <DependentUpon>ShowMaxBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\TPageControl.xaml.cs">
+      <DependentUpon>TPageControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DesignerCanvas.cs" />
+    <Compile Include="DrawCanvas\Command.cs" />
+    <Compile Include="DrawCanvas\CommandAdd.cs" />
+    <Compile Include="DrawCanvas\CommandChangeOrder.cs" />
+    <Compile Include="DrawCanvas\CommandChangeState.cs" />
+    <Compile Include="DrawCanvas\CommandDelete.cs" />
+    <Compile Include="DrawCanvas\CommandDeleteAll.cs" />
+    <Compile Include="DrawCanvas\Definitions.cs" />
+    <Compile Include="DrawCanvas\DrawingCanvas.cs" />
+    <Compile Include="DrawCanvas\DrawingCanvasException.cs" />
+    <Compile Include="DrawCanvas\FontConversions.cs" />
+    <Compile Include="DrawCanvas\GraphicsBase.cs" />
+    <Compile Include="DrawCanvas\GraphicsEllipse.cs" />
+    <Compile Include="DrawCanvas\GraphicsLine.cs" />
+    <Compile Include="DrawCanvas\GraphicsPolyLine.cs" />
+    <Compile Include="DrawCanvas\GraphicsRectangle.cs" />
+    <Compile Include="DrawCanvas\GraphicsRectangleBase.cs" />
+    <Compile Include="DrawCanvas\GraphicsSelectionRectangle.cs" />
+    <Compile Include="DrawCanvas\GraphicsText.cs" />
+    <Compile Include="DrawCanvas\HelperFunctions.cs" />
+    <Compile Include="DrawCanvas\PropertiesGraphicsBase.cs" />
+    <Compile Include="DrawCanvas\PropertiesGraphicsEllipse.cs" />
+    <Compile Include="DrawCanvas\PropertiesGraphicsLine.cs" />
+    <Compile Include="DrawCanvas\PropertiesGraphicsPolyLine.cs" />
+    <Compile Include="DrawCanvas\PropertiesGraphicsRectangle.cs" />
+    <Compile Include="DrawCanvas\PropertiesGraphicsText.cs" />
+    <Compile Include="DrawCanvas\SerializationHelper.cs" />
+    <Compile Include="DrawCanvas\Tool.cs" />
+    <Compile Include="DrawCanvas\ToolEllipse.cs" />
+    <Compile Include="DrawCanvas\ToolLine.cs" />
+    <Compile Include="DrawCanvas\ToolObject.cs" />
+    <Compile Include="DrawCanvas\ToolPointer.cs" />
+    <Compile Include="DrawCanvas\ToolPolyLine.cs" />
+    <Compile Include="DrawCanvas\ToolRectangle.cs" />
+    <Compile Include="DrawCanvas\ToolRectangleBase.cs" />
+    <Compile Include="DrawCanvas\ToolText.cs" />
+    <Compile Include="DrawCanvas\ToolTypeConverter.cs" />
+    <Compile Include="DrawCanvas\UndoManager.cs" />
+    <Compile Include="FileSecurity.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="GZip.cs" />
+    <Compile Include="GZipFileInfo.cs" />
+    <Compile Include="GZipResult.cs" />
+    <Compile Include="HTMLConvert\HtmlCssParser.cs" />
+    <Compile Include="HTMLConvert\HtmlFromXamlConverter.cs" />
+    <Compile Include="HTMLConvert\HtmlLexicalAnalyzer.cs" />
+    <Compile Include="HTMLConvert\HtmlParser.cs" />
+    <Compile Include="HTMLConvert\HtmlSchema.cs" />
+    <Compile Include="HTMLConvert\HtmlTokenType.cs" />
+    <Compile Include="HTMLConvert\HtmlToXamlConverter.cs" />
+    <Compile Include="Property\ContrilPropertyBackground.xaml.cs">
+      <DependentUpon>ContrilPropertyBackground.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\ControlPropertyground.xaml.cs">
+      <DependentUpon>ControlPropertyground.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\ControlPropertyLine.xaml.cs">
+      <DependentUpon>ControlPropertyLine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\ControlPropertyTPage.xaml.cs">
+      <DependentUpon>ControlPropertyTPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RSACryption.cs" />
+    <Compile Include="SavePageInfo.cs" />
+    <Compile Include="ContentTpageGroup.cs" />
+    <Compile Include="WebBrowerGecko.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebBrowerGecko.Designer.cs">
+      <DependentUpon>WebBrowerGecko.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZoomBox.cs" />
+    <Page Include="Control\ControlLine.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\ControlMessage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\ControlPlay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\ControlSound.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control\ControlTextEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\ControlTimeLine.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\ControlTopicDrag.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\ControlMediaElement.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\PageBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\ProgressEditBusy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control\ShowMaxBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\TPageControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Property\ContrilPropertyBackground.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Property\ControlPropertyground.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Property\ControlPropertyLine.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Property\ControlPropertyAction.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Property\ControlPropertyFont.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Property\ControlPropertyLocation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Property\ControlPropertyStage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Property\ControlPropertyTextGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Property\ControlPropertyTopic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Property\ControlPropertyTopicDrag.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Property\ControlPropertyTPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Property\ControlPropertyTransform.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Property\PropertyManage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Brushes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\CboCommonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\DesignerItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Document.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Expander.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\ResizeChrome.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\ScrollBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\ScrollViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Slider.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\StatusBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\TextBoxStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\ToolBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Toolbox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Tooltip.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\TreeViewItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\ZoomBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\BasicShapes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\FlowChartSymbols.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\RegelungstechnikSymbole.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\Shape.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\SymbolStencils.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Stencils\ToolBoxAsset.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TreeViewEditItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Adorners\ResizeAdorner.cs" />
+    <Compile Include="Adorners\ResizeChrome.cs" />
+    <Compile Include="Adorners\RubberbandAdorner.cs" />
+    <Compile Include="ClipboardModel.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Control\ControlDragCanvas.cs" />
+    <Compile Include="Control\ControlImageButton.cs" />
+    <Compile Include="Control\ControlPlay.xaml.cs">
+      <DependentUpon>ControlPlay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ControlSlider.cs" />
+    <Compile Include="Control\ControlTextEditor.xaml.cs">
+      <DependentUpon>ControlTextEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ControlTextGrid.cs" />
+    <Compile Include="Control\ControlTimeLine.xaml.cs">
+      <DependentUpon>ControlTimeLine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ControlTopicDrag.xaml.cs">
+      <DependentUpon>ControlTopicDrag.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CourseInfo.cs" />
+    <Compile Include="DesignerItem.cs" />
+    <Compile Include="EditableTabHeaderControl.cs" />
+    <Compile Include="FileAssociationHelper.cs" />
+    <Compile Include="FilePackage.cs" />
+    <Compile Include="MoveThumb.cs" />
+    <Compile Include="Property\ControlPropertyAction.xaml.cs">
+      <DependentUpon>ControlPropertyAction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\ControlPropertyFont.xaml.cs">
+      <DependentUpon>ControlPropertyFont.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\ControlPropertyLocation.xaml.cs">
+      <DependentUpon>ControlPropertyLocation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\ControlPropertyStage.xaml.cs">
+      <DependentUpon>ControlPropertyStage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\ControlPropertyTextGrid.xaml.cs">
+      <DependentUpon>ControlPropertyTextGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\ControlPropertyTopic.xaml.cs">
+      <DependentUpon>ControlPropertyTopic.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\ControlPropertyTopicDrag.xaml.cs">
+      <DependentUpon>ControlPropertyTopicDrag.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\ControlPropertyTransform.xaml.cs">
+      <DependentUpon>ControlPropertyTransform.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Property\FontCollection.cs" />
+    <Compile Include="Property\PropertyManage.cs" />
+    <Compile Include="Property\PropertyValueChange.cs" />
+    <Compile Include="ResizeDecorator.cs" />
+    <Compile Include="ResizeThumb.cs" />
+    <Compile Include="SaveItemInfo.cs" />
+    <Compile Include="Toolbox.cs" />
+    <Compile Include="ToolboxItem.cs" />
+    <Compile Include="Topic\TopicControl.cs" />
+    <Compile Include="Topic\TopicInfo.cs" />
+    <Compile Include="Topic\TopicOptionInfo.cs" />
+    <Compile Include="TreeViewControl.cs" />
+    <Compile Include="TreeViewEditItem.xaml.cs">
+      <DependentUpon>TreeViewEditItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconLock.png" />
+    <Resource Include="Image\IconVisible.png" />
+    <Resource Include="Image\Top_3DModel_Normal.png" />
+    <Resource Include="Image\Top_Add_Normal.png" />
+    <Resource Include="Image\Top_Add_Preview.png" />
+    <Resource Include="Image\Top_Animation_Normal.png" />
+    <Resource Include="Image\Top_Audio_Normal.png" />
+    <Resource Include="Image\Top_Copy_Normal.png" />
+    <Resource Include="Image\Top_Cut_Normal.png" />
+    <Resource Include="Image\Top_DragandDrop_Normal.png" />
+    <Resource Include="Image\Top_Graph_Normal.png" />
+    <Resource Include="Image\Top_Grid_Normal.png" />
+    <Resource Include="Image\Top_Multiplechoice_Normal.png" />
+    <Resource Include="Image\Top_Open_Normal.png" />
+    <Resource Include="Image\Top_Page_Add.png" />
+    <Resource Include="Image\Top_Page_Del.png" />
+    <Resource Include="Image\Top_Paste_Normal.png" />
+    <Resource Include="Image\Top_Picture_Normal.png" />
+    <Resource Include="Image\Top_Redo_Normal.PNG" />
+    <Resource Include="Image\Top_Release_Normal.png" />
+    <Resource Include="Image\Top_Save_Normal.png" />
+    <Resource Include="Image\Top_Text_Normal.png" />
+    <Resource Include="Image\Top_Undo_Normal.PNG" />
+    <Resource Include="Image\Top_Video_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\text_AlignCenter.png" />
+    <Resource Include="Image\text_AlignLeft.png" />
+    <Resource Include="Image\text_AlignRight.png" />
+    <Resource Include="Image\text_Bold.png" />
+    <Resource Include="Image\text_Copy.png" />
+    <Resource Include="Image\text_Cut.png" />
+    <Resource Include="Image\text_DecreaseFontSize.png" />
+    <Resource Include="Image\text_DecreaseIndentation.png" />
+    <Resource Include="Image\text_IncreaseFontSize.png" />
+    <Resource Include="Image\text_IncreaseIndentation.png" />
+    <Resource Include="Image\text_Italic.png" />
+    <Resource Include="Image\text_Paste.png" />
+    <Resource Include="Image\text_Redo.png" />
+    <Resource Include="Image\text_Underline.png" />
+    <Resource Include="Image\text_Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AngleCur.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Top_ImgGroup_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Ellipse.cur" />
+    <Resource Include="Images\Line.cur" />
+    <Resource Include="Images\Pencil.cur" />
+    <Resource Include="Images\PolyHandle.cur" />
+    <Resource Include="Images\Rectangle.cur" />
+    <Resource Include="Images\Text.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AngleCur.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fluent\Fluent dotNET 4.0.csproj">
+      <Project>{4C92FCF4-3561-499F-BC5B-F2F089863047}</Project>
+      <Name>Fluent dotNET 4.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Skybound.Gecko\Skybound.Gecko.csproj">
+      <Project>{877d1a24-2d5e-4c46-a933-fcf11ea0403b}</Project>
+      <Name>Skybound.Gecko</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
