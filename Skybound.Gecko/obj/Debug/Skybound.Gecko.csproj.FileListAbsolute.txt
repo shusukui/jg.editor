@@ -56,3 +56,16 @@ E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\
 E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.csproj.CoreCompileInputs.cache
 E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.dll
 E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.pdb
+D:\git\jg.editor\Skybound.Gecko\bin\Debug\Skybound.Gecko.xml
+D:\git\jg.editor\Skybound.Gecko\bin\Debug\Skybound.Gecko.dll
+D:\git\jg.editor\Skybound.Gecko\bin\Debug\Skybound.Gecko.pdb
+D:\git\jg.editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.csprojAssemblyReference.cache
+D:\git\jg.editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.ChromeDialog.resources
+D:\git\jg.editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.ConfirmDialog.resources
+D:\git\jg.editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.PasswordDialog.resources
+D:\git\jg.editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.PromptDialog.resources
+D:\git\jg.editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.PropertiesDialog.resources
+D:\git\jg.editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.csproj.GenerateResource.cache
+D:\git\jg.editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.csproj.CoreCompileInputs.cache
+D:\git\jg.editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.dll
+D:\git\jg.editor\Skybound.Gecko\obj\Debug\Skybound.Gecko.pdb

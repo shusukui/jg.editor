@@ -371,3 +371,67 @@ E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\
 E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent dotNET 4.0.csproj.CopyComplete
 E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.dll
 E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\obj\Debug\Fluent.pdb
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\Fluent.XML
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\Fluent.dll
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\Fluent.pdb
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.CodeAnalysisLog.xml
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\Fluent.dll.lastcodeanalysissucceeded
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.dll
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\System.Windows.Interactivity.xml
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\de\System.Windows.Interactivity.resources.dll
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\en\System.Windows.Interactivity.resources.dll
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\es\System.Windows.Interactivity.resources.dll
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\it\System.Windows.Interactivity.resources.dll
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\git\jg.editor\Fluent\obj\Debug\Fluent dotNET 4.0.csprojAssemblyReference.cache
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\ScrollBar.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Fonts.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsSilver.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlue.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Office2010\Colors\ColorsBlack.baml
+D:\git\jg.editor\Fluent\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\git\jg.editor\Fluent\obj\Debug\Fluent_MarkupCompile.cache
+D:\git\jg.editor\Fluent\obj\Debug\Fluent_MarkupCompile.lref
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Generic.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Colors\Colors.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Colors\ColorsWhite.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\Backstage.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageControls.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabControl.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\BackstageTabItem.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\Button.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBox.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\ComboBoxItem.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\DropDownButton.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\Gallery.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\GalleryItem.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\InRibbonGallery.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\KeyTip.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\Ribbon.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonContextualTabGroup.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonGroupBox.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonStatusBar.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabControl.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\RibbonTabItem.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\ScreenTip.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\Slider.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\Spinner.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\SplitButton.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\StatusBar.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\ToggleButton.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\Controls\TwoLineLabel.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\MetroWindow.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\RibbonWindow.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Metro\White.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Office2010\Black.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Office2010\Blue.baml
+D:\git\jg.editor\Fluent\obj\Debug\Themes\Office2010\Silver.baml
+D:\git\jg.editor\Fluent\obj\Debug\Fluent.g.resources
+D:\git\jg.editor\Fluent\obj\Debug\Fluent dotNET 4.0.csproj.CoreCompileInputs.cache
+D:\git\jg.editor\Fluent\obj\Debug\Fluent dotNET 4.0.csproj.CopyComplete
+D:\git\jg.editor\Fluent\obj\Debug\Fluent.dll
+D:\git\jg.editor\Fluent\obj\Debug\Fluent.pdb

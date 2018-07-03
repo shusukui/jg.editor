@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\enterprise\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="15.0">
  <Targets>
-  <Target Name="E:\BaiduNetdiskDownload\编辑器_带时间轴\编辑器_带时间轴\编辑器\jg.Editor\Fluent\bin\NET 4.0\Debug\Fluent.dll">
+  <Target Name="D:\git\jg.editor\Fluent\bin\NET 4.0\Debug\Fluent.dll">
    <Modules>
     <Module Name="fluent.dll">
      <Namespaces>
@@ -10,14 +10,14 @@
        <Types>
         <Type Name="WindowCommands" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnNativeResourcesShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1049" Status="Active" Created="2018-07-03 05:32:47Z" FixCategory="NonBreaking">
+          <Message TypeName="TypesThatOwnNativeResourcesShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1049" Status="Active" Created="2018-07-03 06:37:02Z" FixCategory="NonBreaking">
            <Issue Certainty="50" Level="CriticalError">在 'WindowCommands' 上实现 IDisposable。</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#ClosingWindow" Kind="Event" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2018-07-03 05:32:47Z" FixCategory="Breaking">
+            <Message TypeName="DeclareEventHandlersCorrectly" Category="Microsoft.Design" CheckId="CA1009" Status="Active" Created="2018-07-03 06:37:02Z" FixCategory="Breaking">
              <Issue Name="Second" Certainty="95" Level="Error">将 'WindowCommands.ClosingWindowEventHandler' 的第二个参数声明为 EventArgs，或者声明为扩展 EventArgs 的类型的名为“e”的实例。</Issue>
             </Message>
            </Messages>
@@ -32,7 +32,7 @@
          <Members>
           <Member Name="#SetClassLongPtr64(System.IntPtr,System.Int32,System.IntPtr)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="PInvokeEntryPointsShouldExist" Category="Microsoft.Interoperability" CheckId="CA1400" Status="Active" Created="2018-07-03 05:32:47Z" FixCategory="NonBreaking">
+            <Message TypeName="PInvokeEntryPointsShouldExist" Category="Microsoft.Interoperability" CheckId="CA1400" Status="Active" Created="2018-07-03 06:37:02Z" FixCategory="NonBreaking">
              <Issue Certainty="50" Level="CriticalWarning">更正 'UnsafeNativeMethods.SetClassLongPtr64(IntPtr, int, IntPtr)' 的声明，使它正确地指向 'user32.dll' 中的现有入口点。当前链接到的非托管入口点的名称是 SetClassLongPtr。</Issue>
             </Message>
            </Messages>
@@ -43,7 +43,7 @@
          <Members>
           <Member Name="#normalPosition" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-07-03 05:32:47Z" FixCategory="NonBreaking">
+            <Message TypeName="MarkAllNonSerializableFields" Category="Microsoft.Usage" CheckId="CA2235" Status="Active" Created="2018-07-03 06:37:02Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error">字段 'WINDOWPLACEMENT.normalPosition' 是可序列化的类型 'WINDOWPLACEMENT' 的成员，但该字段的类型是不可序列化的 'RECT'。请向 'WINDOWPLACEMENT.normalPosition' 添加 NonSerializedAttribute 特性。</Issue>
             </Message>
            </Messages>
